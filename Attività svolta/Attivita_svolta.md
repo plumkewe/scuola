@@ -16,7 +16,7 @@ Esercizi: [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/
 
 ### Settembre 27 ⤵️
 Attività: Costanti e tipi dei dati <br />
-Esercizi: [Realizzare un programma...]()
+Esercizi: [Realizzare un programma...](https://github.com/plumkewe/scuola/tree/main/Attività%20svolta/Settembre/Settembre%2027)
 
 ###### 3 giorni
 
@@ -28,7 +28,7 @@ Esercizi: []()
 
 ### Ottobre 7 ⤵️
 Attività: Algebra booleana, and e or <br />
-Esercizi: [Scrivi un algoritmo e relat...]()
+Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/tree/main/Attività%20svolta/Ottobre/Ottobre%207)
 
 ###### 7 giorni
 
