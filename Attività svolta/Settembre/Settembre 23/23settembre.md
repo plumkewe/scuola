@@ -10,7 +10,7 @@ Realizzare un programma in linguaggio C++ che calcoli il costo della benzina nec
 calcolare il costo e poi visualizzare il risultato come output.
 
 
-****** Svolgimento:
+###### Svolgimento:
 
 ```cpp
 #include <iostream> //  includiamo un HEADER di iosteam che sarebbe input e output standard (cin >> e cout <<)
