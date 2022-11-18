@@ -10,7 +10,7 @@ Dichiarazione di variabili, cin e cout
 
 ### Settembre 23 ⤵️
 Attività: Operazioni aritmetiche <br />
-Esercizi: [Calcola il costo della benzin...](Attività_svolta/Settembre/Settembre22/23settembre.md)
+Esercizi: [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/blob/6d5e55d51b78d94c3e3fe9bddf92b53278aab0bc/Attivit%C3%A0%20svolta/Settembre/Settembre%2023/23settembre.md)
 
 
 ###### 5 giorni
