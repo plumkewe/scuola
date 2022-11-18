@@ -1,5 +1,4 @@
-# :closed_book:
-# 23 settembre 2022
+# :closed_book: <br /> 23 settembre 2022
 
 ###### Esercizio:
 

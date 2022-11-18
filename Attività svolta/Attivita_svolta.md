@@ -1,55 +1,54 @@
-# 🎒
-# Programma svolto nel 2022-
+# 🎒 <br /> Programma svolto nel 2022-
 
-###### Qui troverei tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorni avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
+###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorni avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
 
-###### `Settembre 22 ⤵️`
+### Settembre 22 ⤵️
 Dichiarazione di variabili, cin e cout
 
-↕️ 1 giorno
+###### 1 giorno
 
-###### `Settembre 23 ⤵️`
+### Settembre 23 ⤵️
 Attività: Operazioni aritmetiche <br />
-Esercizi: [Calcola il costo della benzin...]()
+Esercizi: [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/blob/6d5e55d51b78d94c3e3fe9bddf92b53278aab0bc/Attivit%C3%A0%20svolta/Settembre/Settembre%2023/23settembre.md)
 
 
-↕️ 5 giorni
+###### 5 giorni
 
-###### `Settembre 27 ⤵️`
+### Settembre 27 ⤵️
 Attività: Costanti e tipi dei dati <br />
 Esercizi: [Realizzare un programma...]()
 
-↕️ 3 giorni
+###### 3 giorni
 
-###### `Settembre 30 ⤵️`
+### Settembre 30 ⤵️
 Attività: % modulo, post incremento, if e gli operatori relazionali <br />
-Esercizi:
+Esercizi: []()
 
-↕️ 7 giorni
+###### 7 giorni
 
-###### `Ottobre 7 ⤵️`
+### Ottobre 7 ⤵️
 Attività: Algebra booleana, and e or <br />
-Esercizi:
+Esercizi: [Scrivi un algoritmo e relat...]()
 
-↕️ 7 giorni
+###### 7 giorni
 
-###### `Ottobre 14 ⤵️`
+### Ottobre 14 ⤵️
 Attività: Iterazione, ciclo for <br />
-Esercizi:
+Esercizi: []()
 
-↕️ 21 giorni
+###### 21 giorni
 
-###### `Novembre 4 ⤵️
+### Novembre 4 ⤵️
 COMPITO
 
-↕️ 4 giorni
+###### 4 giorni
 
-###### `Novembre 8 ⤵️`
+### Novembre 8 ⤵️
 Attività: Iterazione **ciclo while** <br />
-Esercizi:
+Esercizi: []()
 
-↕️ 3 giorni
+###### 3 giorni
 
-###### `Novembre 11 ⤵️`
+### Novembre 11 ⤵️
 Attività: Array <br />
-Esercizi:
+Esercizi: []()
