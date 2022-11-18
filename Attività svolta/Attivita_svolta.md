@@ -1,6 +1,6 @@
 # 🎒 <br /> Programma svolto nel 2022-
 
-###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorni avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
+###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
 
 ### Settembre 22 ⤵️
 Dichiarazione di variabili, cin e cout
