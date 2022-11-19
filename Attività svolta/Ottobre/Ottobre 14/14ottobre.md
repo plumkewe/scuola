@@ -136,4 +136,4 @@ return 0;
 }
 ```
 
-`! c'eranno altri esercizi ma li avovi già fatto e postato (quello del rettangolo e calcolatrice)
+`! c'eranno altri esercizi ma li avovi già fatto e postato (quello del rettangolo e calcolatrice)`
