@@ -27,7 +27,7 @@ Esercizi: []()
 ###### 7 giorni
 
 ### Ottobre 7 ⤵️
-Attività: Algebra booleana, and e or <br />
+Attività: Algebra booleana, and, or e lo [switch]() <br />
 Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/tree/main/Attività%20svolta/Ottobre/Ottobre%207)
 
 ###### 7 giorni
