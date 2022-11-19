@@ -48,17 +48,17 @@ questa è la struttura dello switch, come potete vedere dopo il case abbiamo il 
 ```cpp
 int main () {
 
-int x;
-
-cin >> x;
-
-switch (x) {
-
-case 1:
-cout << "uno";
-case 2:
-cout << "due";
-}
+	int x;
+	
+	cin >> x;
+	
+	switch (x) {
+	
+		case 1:
+			cout << "uno";
+		case 2:
+			cout << "due";
+	}
 
 return 0;
 
@@ -76,25 +76,25 @@ bene abbiamo compilato, vediamo se funziona, inseriamo il numero 1 e vediamo che
 ```cpp
 int main () {
 
-int x;
-
-cin >> x;
-
-switch (x) {
-
-case 1:
-cout << "uno";
-break;
-case 2:
-cout << "due";
-break;
-}
+	int x;
+	
+	cin >> x;
+	
+	switch (x) {
+	
+		case 1:
+			cout << "uno";
+			break;
+		case 2:
+			cout << "due";
+			break;
+	}
 
 return 0;
 ```
 
 
-### Break
+### Break <br />
 per risolvere bisogna mettere una parola chiave, il Break. Break serve per uscire dallo switch.  per comodità lo si mette sotto al case, ma nulla vi vieta di metterlo un po’ dove vi pare, basta che lo mettiate dopo il codice che volete eseguire. 
 
 ###### output:
@@ -119,22 +119,22 @@ beh vediamo che non succederà niente e come faccio a prevenire e dire al utente
 ```cpp
 int main () {
 
-int x;
-
-cin >> x;
-
-switch (x) {
-
-default: cout << "no";
-break;
-
-case 1:
-cout << "uno";
-break;
-case 2:
-cout << "due";
-break;
-}
+	int x;
+	
+	cin >> x;
+	
+	switch (x) {
+	
+	default: cout << "no";
+	break;
+	
+		case 1:
+			cout << "uno";
+			break;
+		case 2:
+			cout << "due";
+			break;
+	}
 
 return 0;
 ```
@@ -164,4 +164,7 @@ cout << "\nwewewe";
 }
 }
 }
+
 ```
+
+`! ci possono essere dei errori di ortografia`
