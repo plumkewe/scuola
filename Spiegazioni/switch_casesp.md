@@ -94,7 +94,7 @@ return 0;
 ```
 
 
-### Break <br />
+### Break <br /> 
 per risolvere bisogna mettere una parola chiave, il Break. Break serve per uscire dallo switch.  per comodità lo si mette sotto al case, ma nulla vi vieta di metterlo un po’ dove vi pare, basta che lo mettiate dopo il codice che volete eseguire. 
 
 ###### output:
