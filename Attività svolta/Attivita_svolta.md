@@ -9,14 +9,14 @@ Dichiarazione di variabili, cin e cout
 
 ### Settembre 23 ⤵️
 Attività: Operazioni aritmetiche <br />
-Esercizi: [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Settembre/Settembre%2023/23settembre.md)
+Esercizi: [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/blob/ada1c2f195ef888c2c8d8c87c31366a7dccc6fef/Attivit%C3%A0%20svolta/Settembre/Settembre%2023/23settembre.md)
 
 
 ###### 5 giorni
 
 ### Settembre 27 ⤵️
 Attività: Costanti e tipi dei dati <br />
-Esercizi: [Realizzare un programma...](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Settembre/Settembre%2027/27settembre.md)
+Esercizi: [Realizzare un programma...](https://github.com/plumkewe/scuola/blob/ada1c2f195ef888c2c8d8c87c31366a7dccc6fef/Attivit%C3%A0%20svolta/Settembre/Settembre%2027/27settembre.md)
 
 ###### 3 giorni
 
@@ -28,7 +28,7 @@ Esercizi: []()
 
 ### Ottobre 7 ⤵️
 Attività: Algebra booleana, and e or <br />
-Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Ottobre/Ottobre%207/7ottobre.md)
+Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/blob/ada1c2f195ef888c2c8d8c87c31366a7dccc6fef/Attivit%C3%A0%20svolta/Ottobre/Ottobre%207/7ottobre.md)
 
 ###### 7 giorni
 
