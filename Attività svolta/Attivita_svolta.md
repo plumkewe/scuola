@@ -2,7 +2,7 @@
 
 ###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
 
-# `! le date sono sbagliate, perché qualcuno non sa fare ciò che dovrebbe saper fare :rage4:`
+# `! le date sono sbagliate, perché qualcuno non sa fare ciò che dovrebbe saper fare`
 
 ### Settembre 22 ⤵️
 Dichiarazione di variabili, cin e cout
@@ -36,8 +36,8 @@ Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/bl
 
 ### Ottobre 14 ⤵️
 Attività: Iterazione, ciclo for <br />
-Esercizi: [Scrivi un alaoritmo e relativ...](https://github.com/plumkewe/scuola/blob/0c52e99d74212d06c70fe833cadde6fa151ff2c1/Attivit%C3%A0%20svolta/Ottobre/Ottobre%2014/14ottobre.md)
-Esercizi con il for []()
+Esercizi: [Scrivi un alaoritmo e relativ...](https://github.com/plumkewe/scuola/blob/0c52e99d74212d06c70fe833cadde6fa151ff2c1/Attivit%C3%A0%20svolta/Ottobre/Ottobre%2014/14ottobre.md) <br />
+Esercizi con [il for](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Ottobre/Esercizi%20con%20il%20for)
 
 ###### 21 giorni
 
