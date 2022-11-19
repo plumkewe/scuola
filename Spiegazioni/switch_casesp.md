@@ -29,14 +29,14 @@ using namespace std;
 
 
 int main () {
-
+	
 	switch (condizione) {
 		case 1:
 			// codice
 		case 2:
 			// codice
 	}
-
+	
 	return 0;
 }
 ```
@@ -47,21 +47,17 @@ questa è la struttura dello switch, come potete vedere dopo il case abbiamo il 
 
 ```cpp
 int main () {
-
+	
 	int x;
 	
 	cin >> x;
 	
 	switch (x) {
-	
 		case 1:
 			cout << "uno";
 		case 2:
 			cout << "due";
 	}
-
-return 0;
-
 ```
 
 ###### output:
@@ -75,13 +71,12 @@ bene abbiamo compilato, vediamo se funziona, inseriamo il numero 1 e vediamo che
 
 ```cpp
 int main () {
-
+	
 	int x;
 	
 	cin >> x;
 	
 	switch (x) {
-	
 		case 1:
 			cout << "uno";
 			break;
@@ -89,8 +84,6 @@ int main () {
 			cout << "due";
 			break;
 	}
-
-return 0;
 ```
 
 
@@ -118,16 +111,16 @@ beh vediamo che non succederà niente e come faccio a prevenire e dire al utente
 
 ```cpp
 int main () {
-
+	
 	int x;
 	
 	cin >> x;
 	
 	switch (x) {
-	
-	default: cout << "no";
-	break;
-	
+		
+		default: cout << "no";
+			break;
+		
 		case 1:
 			cout << "uno";
 			break;
@@ -135,8 +128,6 @@ int main () {
 			cout << "due";
 			break;
 	}
-
-return 0;
 ```
 
 default lo possiamo mettere sia al inizio *per evidenziarlo* sia all fine, una cosa importante è se volete metterlo al inizio non scordatevi di mettere anche il break *come dopo i casi.* 
@@ -148,23 +139,23 @@ ecco possiamo dire che il nostro switch case è completo, questo non vuol dire c
 getline(cin, g);
 
 if (g == "didudu") {
-cout << "fufufu";
+	cout << "fufufu";
 }
 else {
-cout << "okay, scegli ";
-
-cin >> f;
-switch (f) {
-case 1: case 2: case 3: cout << "gogogo";
-break;
-default: g = "jojojo" ;
-
-if (g == "kukuku") {
-cout << "\nwewewe";
-}
-}
-}
-
+	cout << "okay, scegli ";
+	
+	cin >> f;
+	switch (f) {
+		case 1: case 2: case 3: cout << "gogogo";
+			break;
+		default: g = "jojojo" ;
+			
+			if (g == "kukuku") {
+				cout << "\nwewewe";
+			}
+	}
+}	
 ```
 
 `! ci possono essere dei errori di ortografia`
+	
