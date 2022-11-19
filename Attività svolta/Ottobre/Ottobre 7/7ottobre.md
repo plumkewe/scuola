@@ -2,9 +2,9 @@
 
 ###### Esercizio 1:
 
-Scrivi un algoritmo e relativo codice C++ che calcoli la somma spesa da un cliente tenendo conto delle seguenti condizioni:
-a. per spese inferiori a euro 50, sconto 10%;
-b. per spese inferiori a euro 100, sconto 20%;
+Scrivi un algoritmo e relativo codice C++ che calcoli la somma spesa da un cliente tenendo conto delle seguenti condizioni: <br />
+a. per spese inferiori a euro 50, sconto 10%; <br />
+b. per spese inferiori a euro 100, sconto 20%; <br />
 c. per spese superiori a euro 100, sconto 30%.
 
 
