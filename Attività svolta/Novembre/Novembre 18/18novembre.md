@@ -197,7 +197,8 @@ Scrivere un programma C++ che crei un vettore di 8 elementi inizializzato con va
 
 using namespace std;
 
-// 
+//  Riempi l'array con dei valori casuali e poi richiedi un numero e se il numero è presente nel array stampa la sua posizione (nel array)
+//  Versione 0.0
 
 
 int main() {
