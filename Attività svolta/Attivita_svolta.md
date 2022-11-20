@@ -54,4 +54,4 @@ Esercizi: []()
 
 ### Novembre 11 ⤵️
 Attività: Array <br />
-Esercizi: []()
+Esercizi: [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%2018)
