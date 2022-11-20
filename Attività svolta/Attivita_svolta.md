@@ -37,7 +37,7 @@ Esercizi: [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/bl
 ### Ottobre 14 ⤵️
 Attività: Iterazione, ciclo for <br />
 Esercizi: [Scrivi un alaoritmo e relativ...](https://github.com/plumkewe/scuola/blob/0c52e99d74212d06c70fe833cadde6fa151ff2c1/Attivit%C3%A0%20svolta/Ottobre/Ottobre%2014/14ottobre.md) <br />
-Esercizi con [il for:](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Ottobre/Esercizi%20con%20il%20for)
+Esercizi con il for: [Scrivere un programma in linguag...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Ottobre/Esercizi%20con%20il%20for)
 
 ###### 21 giorni
 
