@@ -4,7 +4,8 @@
 
 using namespace std;
 
-// 
+//  Riempi l'array con dei valori casuali e poi richiedi un numero e se il numero è presente nel array stampa la sua posizione (nel array)
+//  Versione 0.0
 
 
 int main() {
