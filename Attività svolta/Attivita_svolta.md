@@ -54,5 +54,5 @@ Esercizi: []()
 
 ### Novembre 11 ⤵️
 Attività: Array <br />
-Esercizi: [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/blob/e35a97d269cf37e5671b302ae7ffe573920e84ab/Attivit%C3%A0%20svolta/Novembre/Novembre%2018/18novembre.md)
+Esercizi: [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/blob/e35a97d269cf37e5671b302ae7ffe573920e84ab/Attivit%C3%A0%20svolta/Novembre/Novembre%2018/18novembre.md)  <br />
 Riempire un array: [Con dei valori tutti ugu...](https://github.com/plumkewe/CPP_miei_codici/tree/main/Miei%20codici/Array/Modi%20di%20riempire)
