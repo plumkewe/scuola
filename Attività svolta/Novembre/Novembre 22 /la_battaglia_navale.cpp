@@ -5,7 +5,7 @@
 using namespace std;
 
 //  mini battaglia navale
-//  versine 0.1
+//  versine 0.2
 
 
 int main() {
@@ -14,7 +14,8 @@ int main() {
 	int aTavoladagioco[21], //  creiamo un array di tipo int e con "20 elementi"
 	sDove, sColpita = 0,
 	sTentativo = 1,
-	sQuanti = sizeof(aTavoladagioco)/sizeof(aTavoladagioco[0]); //  troviamo quanti elementi ci sono nel array
+	sQuanti = sizeof(aTavoladagioco)/sizeof(aTavoladagioco[0]), //  troviamo quanti elementi ci sono nel array
+	aGiascritti[sQuanti];
 	
 	
 	fill (aTavoladagioco, aTavoladagioco + sQuanti, 0); //  riempie l'array con il valore '0'
@@ -42,10 +43,12 @@ int main() {
 			
 		}
 		
-		if (aTavoladagioco[sDove] == 1) { //  verifico se nel numero che l'utente abbia inserito è presente una nave
+		if (aTavoladagioco[sDove] == 1 && aGiascritti[sColpita] != sDove) { //  verifico se nel numero che l'utente abbia inserito è presente una nave e se non vuole barare inserendo la stessa barca
 			
 			++ sColpita; //  incremento le navi (+1)
 			cout << "[X] Complimenti hai colpito la " << sColpita << " nave\n";
+			
+			aGiascritti[sColpita] = sDove; //  per aggiungere al array una sorta di verifica
 			
 		}
 		
