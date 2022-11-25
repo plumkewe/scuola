@@ -24,7 +24,7 @@ Esercizi: [Realizzare un programma...](https://github.com/plumkewe/scuola/blob/c
 
 ### Settembre 30 ⤵️
 Attività: % modulo, post incremento, if e gli operatori relazionali <br />
-Esercizi: []()
+Esercizi: [Un'agenzia di viaggi deve organiz...](https://github.com/plumkewe/scuola/blob/765d006fb7e842414ef284fb004b588af9c3d145/Attivit%C3%A0%20svolta/Ottobre/Ottobre%201/1ottobre.md)
 
 ###### 7 giorni
 
