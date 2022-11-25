@@ -42,7 +42,7 @@ Esercizi con il for: [Scrivere un programma in linguag...](https://github.com/pl
 ###### 21 giorni
 
 ### Novembre 4 ⤵️
-COMPITO
+[COMPITO](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%204)
 
 ###### 4 giorni
 
