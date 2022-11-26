@@ -72,7 +72,7 @@ Scrivere un programma C++ che crei un vettore di 20 elementi, permetta l’inser
 using namespace std;
 
 //  Richiedi 20 numei e stabilisci un range che vada da 'a' a 'b' e scrivi quanti numeri si trovano in quel range.
-//  Versione 0.0 
+//  Versione 0.1 
 
 
 int main() {
@@ -83,11 +83,11 @@ int main() {
 	sQuanti = sizeof(aNumeri)/sizeof(aNumeri[0]); //  troviamo quanti elementi sono nel array
 	
 	
-	cout << "sarò in grado di dirti numeri sono compresi tra i numeri che inserirai dopo\n\n"; //  una piccola spiegazione di ciò che farà il programma (per utente) e poi va da capo ("\n\n")
+	cout << "Sarò in grado di dirti numeri sono compresi tra i numeri che inserirai dopo\n\n"; //  una piccola spiegazione di ciò che farà il programma (per utente) e poi va da capo ("\n\n")
 	
 	for (int i = 0, n = 1; i < sQuanti; ++ i, ++ n) { //  loop per richiedere i numeri, incremento i per spostarsi nel array e n per stampare "inserisci il x numero"
 		
-		cout << "inserisci il " << n << " numero: ";
+		cout << "Inserisci il " << n << " numero: ";
 		
 		while (!(cin >> aNumeri[i])) { //  serve per evitare un errore, il codice verrà eseguito quando in cin verrà ricevuto un valore che non sia int (valore del nostro array)
 			
@@ -99,10 +99,10 @@ int main() {
 		
 	}
 	
-	cout << "\ninserisci il primo numero per creare il range: ";
+	cout << "\nInserisci il primo numero per creare il range: ";
 	cin >> a; //  non sapendo ancora fare delle funzioni personalizzate di alto livello non ho incluso il codice del errore (while) un'altra volta se no il codice sarebbe chilometrico
 	
-	cout << "inserisci il secondo numero per creare il range: ";
+	cout << "Inserisci il secondo numero per creare il range: ";
 	cin >> b;
 	
 	if (a > b) { //  giusto per, prevenire dei errori, cambiare il valore del a in caso esso sia più grande del b
@@ -114,14 +114,14 @@ int main() {
 	
 	for (int j = 0; j < sQuanti; ++ j) {
 		
-		if (aNumeri[j] >= a && aNumeri[j] <= b) {
+		if (aNumeri[j] > a && aNumeri[j] < b) {
 			
 			++ oContatore;
 		}
 		
 	}
 	
-	cout << '\n' << "sono " << oContatore << " gli numeri compresi nel range (" << a << "-" << b << ")";
+	cout << "\nSono " << oContatore << " gli numeri compresi nel range (" << a << "-" << b << ")";
 	
 	return 0;
 }
