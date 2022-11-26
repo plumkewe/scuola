@@ -57,4 +57,4 @@ Attività: Array <br />
 Esercizi: [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/blob/1989af49b89e284626e60877a99b6a6d0beed50f/Attivit%C3%A0%20svolta/Novembre/Novembre%2018/18novembre.md)  <br />
 Riempire un array: [Con dei valori tutti ugu...](https://github.com/plumkewe/CPP_miei_codici/tree/main/Miei%20codici/Array/Modi%20di%20riempire) <br />
 La mini battaglia navale: [Creare un vetto...](https://github.com/plumkewe/scuola/blob/ed0e64e116c8dd5a603af2ad81195ecc2cd2d9dd/Attivit%C3%A0%20svolta/Novembre/Novembre%2022%20/la_battaglia_navale.cpp) <br />
-Venti e uno esercizi: [Memorizzare in un array d...]()
+Venti e uno esercizi: [Memorizzare in un array d...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%2026)
