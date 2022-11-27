@@ -20,5 +20,6 @@ int main() {
 	
 	cout << "La somma è " << somma;
 	
+	
 	return 0;
 }
