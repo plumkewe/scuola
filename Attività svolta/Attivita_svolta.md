@@ -2,7 +2,7 @@
 
 ###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
 
-# `! le date sono sbagliate
+# `! le date sono sbagliate`
 
 ### Settembre 22 ⤵️
 Dichiarazione di variabili, cin e cout
