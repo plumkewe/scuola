@@ -2,7 +2,7 @@
 
 using namespace std;
 
-//  Creato: 30/11/22,
+//  Creato: 30/11/22
 //  Da: swampkewe
 
 void crescente (int a, int b) {
