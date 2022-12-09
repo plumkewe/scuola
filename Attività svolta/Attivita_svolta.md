@@ -58,3 +58,9 @@ Esercizi: [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scu
 Riempire un array: [Con dei valori tutti ugu...](https://github.com/plumkewe/CPP_miei_codici/tree/main/Miei%20codici/Array/Modi%20di%20riempire) <br />
 La mini battaglia navale: [Creare un vetto...](https://github.com/plumkewe/scuola/blob/ed0e64e116c8dd5a603af2ad81195ecc2cd2d9dd/Attivit%C3%A0%20svolta/Novembre/Novembre%2022%20/la_battaglia_navale.cpp) <br />
 Venti e uno esercizi: [Memorizzare in un array d...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%2026)
+
+###### 25 giorni
+
+### Dicembre 6 ⤵️
+Attività: Array 2D (Matrici)
+Riempire un array 2D: [Con dei valori tutti uguali...]()
