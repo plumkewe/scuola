@@ -63,4 +63,4 @@ Venti e uno esercizi: [Memorizzare in un array d...](https://github.com/plumkewe
 
 ### Dicembre 6 ⤵️
 Attività: Array 2D (Matrici)
-Riempire un array 2D: [Con dei valori tutti uguali...]()
+Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/blob/32d584ac3edf8d25ee4579ef2bf8fa13cf1fb678/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire/for-valori-uguali.cpp)
