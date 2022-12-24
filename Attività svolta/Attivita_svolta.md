@@ -2,7 +2,6 @@
 
 ###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
 
-# `! le date sono sbagliate`
 
 ### Settembre 22 ⤵️
 Dichiarazione di variabili, cin e cout
@@ -48,7 +47,6 @@ Esercizi con il for: [Scrivere un programma in linguag...](https://github.com/pl
 
 ### Novembre 8 ⤵️
 Attività: Iterazione **ciclo while** <br />
-Esercizi: []()
 
 ###### 3 giorni
 
@@ -64,3 +62,4 @@ Venti e uno esercizi: [Memorizzare in un array d...](https://github.com/plumkewe
 ### Dicembre 6 ⤵️
 Attività: Array 2D (Matrici)  <br />
 Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)
+Esercizi di 20 dicembre [Realizzare un programma in li...]()
