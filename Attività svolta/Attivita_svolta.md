@@ -61,5 +61,6 @@ Venti e uno esercizi: [Memorizzare in un array d...](https://github.com/plumkewe
 
 ### Dicembre 6 ⤵️
 Attività: Array 2D (Matrici)  <br />
-Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)
-Esercizi di 20 dicembre [Realizzare un programma in li...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2020)
+Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br />
+Esercizi di 20 dicembre [Realizzare un programma in li...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2020)  <br />
+Lezione per le vacanze [Scrivi un algoritmo...]()
