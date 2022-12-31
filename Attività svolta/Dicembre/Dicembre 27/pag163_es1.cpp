@@ -4,6 +4,7 @@ using namespace std;
 
 //  
 
+
 void asterischi (int);
 int prova_banale (int);
 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -14,5 +15,5 @@ int main() {
 	return 0;
 }
 
-//  crivi una procedura che, richiesti in input il nome e l'età di tre 
+//  scrivi una procedura che, richiesti in input il nome e l'età di tre 
 //  persone, visualizzi i dati in ordine alfabetico e in ordine di eta
