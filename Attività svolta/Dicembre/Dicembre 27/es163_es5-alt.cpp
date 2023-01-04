@@ -82,7 +82,7 @@ void procedura (string nomi[3], int alfabeto[3], int anni[3], int lunghezza) {
 
 void in_ordine (string nomi[3], int alfabeto[3], int anni[3], int lunghezza, bool t_alfa__f_eta) {
 	
-	for (int i = 0; i < lunghezza - 1; i ++) 
+	for (int i = 0; i < lunghezza - 1; i ++)
 		
 		for (int j = 0; j < lunghezza - 1; j ++) {
 			
@@ -91,6 +91,12 @@ void in_ordine (string nomi[3], int alfabeto[3], int anni[3], int lunghezza, boo
 				swap(nomi[j], nomi[j + 1]);
 				swap(alfabeto[j], alfabeto[j + 1]);
 				swap(anni[j], anni[j + 1]);
+				
+			}
+			
+			if (nomi[j] == nomi[j + 1]) {
+				
+				nomi[j] = nomi[j] + " (" + to_string(anni[j]) + ")";
 				
 			}
 			
