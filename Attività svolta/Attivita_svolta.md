@@ -66,5 +66,9 @@
 
 [`🎄` **Lezione per le vacanze**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2027)
 
+###### 35 giorni
+
+### Gennaio 10 ⤵️
+[`✏️` **COMPITO**]()
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
