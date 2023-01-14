@@ -2,44 +2,42 @@
 
 using namespace std;
 
-//  esercizio 36
-
-int sommanumeridispari(int fino_a) {
-
-    int somma = 0;
-
-    for (int i = (fino_a - 1); i > 0; --i){
-
-        if (i % 2 == 1) {
-            somma += i;
-        }
-
-    }
-
-    return somma;
-
-}
+//  Esercizio 36 pagina 124
 
 
-int main() {
+int main()
+{
     setlocale(LC_ALL, "italian");
-	
-	int iNumero;
 
-    cout << "Inserisci un numero minore di 100 e io ti farò la somma dei SOLI numeri dispari: ";
-    cin >> iNumero;
+    int numeroQuanti    = 0;
+    int numero          = 0;
+    
+    int sommaDispari    = 0;
 
-    while (iNumero > 100){
+    cout << "Quanti: ";
+    cin  >> numeroQuanti;
 
-        cout << "[!] Devi inserire un numeri che sia minore di 100: ";
-        cin >> iNumero;
 
+    for (int i = 0; i < numeroQuanti; i++)
+    {
+        cout << "Inserisci un numero: ";
+        cin  >> numero;
+        
+        while (numero > 100)
+        {
+                cout << "! Numero non valido, inserisci un numero <100: ";
+                cin  >> numero;
+        }
+        
+        if (numero % 2 == 1)
+            sommaDispari += numero;
+        
     }
 
-   cout << "\nLa somma è pari a: " << sommanumeridispari(iNumero);
+   cout << "\nLa somma dei soli numeri dispari è pari a: " << sommaDispari << endl;
 
-	
-	return 0;
+
+    return 0;
 }
 
 //  Scrivi un algoritmo e relativo codice C++ che

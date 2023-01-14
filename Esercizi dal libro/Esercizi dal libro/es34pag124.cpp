@@ -2,34 +2,25 @@
 
 using namespace std;
 
-//  esercizio 34
+//  Esercizio 34 pagina 124
 
-void numeripari(int dal_numero) {
 
-    for (int i = (dal_numero - 1); i > 0; --i){
-
-        if (i % 2 == 0) {
-            cout << i << " ";
-        }
-
-    }
-
-}
-
-int main() {
+int main()
+{
     setlocale(LC_ALL, "italian");
-	
-    int iNumero;
-	
-	cout << "inserisci un numero e io ti dirò quanti numeri pari lo perseguitano: ";
-	cin >> iNumero;
-	
-	cout << "\nIl tuo numero " << iNumero << " viene perseguitato da seguenti numeri pari: ";
+    
+    int numeroQuanti = 0;
 
-    numeripari(iNumero);
+    cout << "Inserisci un numero: ";
+    cin  >> numeroQuanti;
 
 
-	return 0;
+    for (int i = 0; i < numeroQuanti; ++i)
+        
+        (i % 2 == 0) ? cout << i : cout << " ";
+
+
+    return 0;
 }
 
 //  Generalizza l'esercizio precedente facendolo

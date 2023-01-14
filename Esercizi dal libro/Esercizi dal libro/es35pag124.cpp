@@ -2,35 +2,32 @@
 
 using namespace std;
 
-//  esercizio 35
+//  Esercizio 35 pagina 124
 
-void numeridispari(int fino_a) {
-
-    for (int i = (fino_a - 1); i > 0; --i){
-
-        if (i % 2 == 1) {
-            cout << i << " ";
-        }
-
-    }
-
-}
+void DispariNumero (int da_numero);
 
 
-int main() {
-    setlocale(LC_ALL, "italian");
+int main()
+{
+	setlocale(LC_ALL, "italian");
 
-	int iNumero;
+	int numero = 0;
 	
-	cout << "Inserisci un numero e io ti dirò quanti numeri dispari lo perseguitano: ";
-	cin >> iNumero;
-	
-	cout << "\nil tuo numero " << iNumero << " viene perseguitato da seguenti numeri dispari: ";
+	cout << "Inserisci un numero: ";
+	cin  >> numero;
 
-    numeridispari(iNumero);
+	DispariNumero(numero);
 	
 
 	return 0;
+}
+
+void DispariNumero (int da_numero)
+{
+	for (int i = (da_numero - 1); i > 0; --i)
+		
+		if (i % 2 == 1)
+		cout << i << " ";
 }
 
 //  Scrivi un algoritmo e relativo codice C++ che

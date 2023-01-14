@@ -2,26 +2,25 @@
 
 using namespace std;
 
-//  esercizio 44
+//  esercizio 44 pagina 124
 
-void multipliditre(){
-
-    for (int i = 10; i < 100; i ++){
-
-        if (i % 3 == 0){
-            cout << i << " ";
-        }
-
-    }
-    
-}
+void MultipliTre();
 
 
 int main() {
-	
-    multipliditre();
-	
-	return 0;
+
+    MultipliTre();
+
+
+    return 0;
+}
+
+void MultipliTre()
+{
+    for (int i = 10; i < 100; i++)
+        
+        if (i % 3 == 0)
+        cout << i << " ";
 }
 
 //  Scrivi un algoritmo e relativo codice C++ che

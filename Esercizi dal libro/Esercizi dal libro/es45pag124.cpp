@@ -2,27 +2,25 @@
 
 using namespace std;
 
-//  esercizio 45
+//  Esercizio 45 pagina 124
 
-void multipliditreecinque(){
-
-    for (int i = 10; i < 100 + 1; i ++){
-
-        if (i % 3 == 0 || i % 5 == 0){
-            cout << i << " ";
-        }
-
-    }
-    
-    
-}
+void MultipliTreCinque();
 
 
 int main() {
-	
-	multipliditreecinque();
-	
-	return 0;
+
+    MultipliTreCinque();
+
+
+    return 0;
+}
+
+void MultipliTreCinque()
+{    
+    for (int i = 10; i < 100; i ++)
+        
+        if ((i % 3 == 0) || (i % 5 == 0))
+        cout << i << " ";
 }
 
 //  Scrivi un algoritmo e relativo codice C++ che
