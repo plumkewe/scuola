@@ -56,7 +56,7 @@
 **La mini battaglia navale:** [Creare un vetto...](https://github.com/plumkewe/scuola/blob/ed0e64e116c8dd5a603af2ad81195ecc2cd2d9dd/Attivit%C3%A0%20svolta/Novembre/Novembre%2022%20/la_battaglia_navale.cpp) <br />
 
 [`🥞` **Venti e uno esercizi**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%2026) <br />
-[`✨` **Come riempire un Array**](https://github.com/plumkewe/CPP_miei_codici/tree/main/Miei%20codici/Array/Modi%20di%20riempire) <br />
+[`✨` **Come riempire un Array**](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/C++/Array/Modi%20di%20riempire) <br />
 
 ###### 25 giorni
 
