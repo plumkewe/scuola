@@ -1,6 +1,6 @@
 # 🎒 <br /> Programma svolto nel 2022-
 
-###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate. Primi esercizi qui presenti fanno pena, gli avevo fatto con quelle conoscenze che avevo in quel tempo. [Qui](https://github.com/plumkewe/scuola/tree/main/Esercizi%20dal%20libro).
+###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate. Esercizi qui presenti non sono un granchè dato che furono svolti con quelle conoscenze che avevo. [Qui](https://github.com/plumkewe/scuola/tree/main/Esercizi%20dal%20libro).
 
 
 ### Settembre 22 ⤵️
