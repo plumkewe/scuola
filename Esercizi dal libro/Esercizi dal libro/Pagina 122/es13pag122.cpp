@@ -6,58 +6,57 @@ using namespace std;
 
 enum operazioni
 {
-	addizione = 1,
-	sottrazione,
-	multiplicazione,
-	divisione
+	kAddizione = 1,
+	kSottrazione,
+	kMultiplicazione,
+	kDivisione
 };
 
 int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int primoNum 		= 0;
-	int secondoNum 		= 0;
+	int primo_num 		= 0;
+	int secondo_num 	= 0;
 	
-	int operazioneNum 	= 0;
-	int risultatoNum	= 0;
+	int operazione_num 	= 0;
+	int risultato_num	= 0;
 	
 	cout << "Inserisci primo numero: ";
-	cin  >> primoNum;
+	cin  >> primo_num;
 	
 	cout << "Inserisci secondo numero: ";
-	cin  >> secondoNum;
+	cin  >> secondo_num;
 	
 	cout << "\nOperazione:  1. addizione, 2. sottrazione, 3. multiplicazione, 4. divisione >>";
-	cin  >> operazioneNum;
+	cin  >> operazione_num;
 	
-	switch (operazioneNum) {
-		case addizione: ;
-			
-			risultatoNum = primoNum + secondoNum;
+	switch (operazione_num) 
+	{
+		case kAddizione: {
+			risultato_num = primo_num + secondo_num;
 			break;
-		
-		case sottrazione: ;
-			
-			risultatoNum = primoNum - secondoNum;
+		}
+		case kSottrazione: {
+			risultato_num = primo_num - secondo_num;
 			break;
-		
-		case multiplicazione: ;
-			
-			risultatoNum = primoNum * secondoNum;
+		}
+		case kMultiplicazione: {
+			risultato_num = primo_num * secondo_num;
 			break;
-		
-		case divisione: ;
-			
-			risultatoNum = primoNum / secondoNum;
+		}
+		case kDivisione: {
+			risultato_num = primo_num / secondo_num;
 			break;
-			
-		default:
+		}
+		default: {
 			cout << "\nOperazione non valida" << endl;
 			return 0;
+		}
+		
 	}
 	
-	cout << "\nIl risultato della operazione è uguale a: " << risultatoNum << endl;
+	cout << "\nIl risultato della operazione è uguale a: " << risultato_num << endl;
 	
 	
 	return 0;

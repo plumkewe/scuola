@@ -6,7 +6,7 @@ using namespace std;
 
 enum multiplo {
 	
-	si_lo_e = 0
+	kSi_lo_e = 0
 	
 };
 
@@ -24,16 +24,14 @@ int main()
 	cout << "Inserisci il multiplo per verificare: ";
 	cin  >> multiplo;
 	
-	if (numero % multiplo == si_lo_e)
-	{
+	if (numero % multiplo == kSi_lo_e) {
+		
 		multiplicazione = numero / multiplo;
 		
 		cout << "\nIl numero " << numero << " è un multiplo di " << multiplo << "\t (" << multiplicazione << " * " << multiplo << ")" << endl;
-	} 
-	else
-	{
+		
+	} else
 		cout << "\nIl numero " << numero << " non è un multiplo di " << multiplo << endl;
-	}
 	
 	
 	return 0;

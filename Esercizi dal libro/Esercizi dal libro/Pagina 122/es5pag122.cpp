@@ -9,72 +9,70 @@ int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int primoNum 	= 0;
-	int secondoNum 	= 0;
-	int terzoNum 	= 0;
+	int primo_num 		= 0;
+	int secondo_num 	= 0;
+	int terzo_num 		= 0;
 	
-	int minNum 		= 0;
-	int maxNum		= 0;
-	int diffMaxMin	= 0;
+	int min_num 			= 0;
+	int max_num			= 0;
+	int diff_max_min	= 0;
 	
 	
 	cout << "Inserisci primo numero: ";
-	cin  >> primoNum;
+	cin  >> primo_num;
 	
 	cout << "Inserisci secondo numero: ";
-	cin  >> secondoNum;
+	cin  >> secondo_num;
 	
 	cout << "Inserisci terzo numero: ";
-	cin  >> terzoNum;
+	cin  >> terzo_num;
 
 
-	if ((primoNum == secondoNum) && (primoNum == terzoNum))
-	{
+	if ((primo_num == secondo_num) && (primo_num == terzo_num)) {
+		
 		cout << "\nI tuoi numeri sono uguali!";
 		
 		return 0;
 	}
 
 	
-	if (primoNum < secondoNum) {
+	if (primo_num < secondo_num) {
 		
-		if (primoNum < terzoNum)
-			minNum = primoNum;
-		
-		else
-			minNum = terzoNum;
-	}
-	else
-	{
-		if (secondoNum < terzoNum)
-			minNum = secondoNum;
+		if (primo_num < terzo_num)
+			min_num = primo_num;
 		
 		else
-			minNum = terzoNum;
-	}
-
-
-
-	if (primoNum > secondoNum) {
+			min_num = terzo_num;
 		
-		if (primoNum > terzoNum)
-			maxNum = primoNum;
+	} else {
+		
+		if (secondo_num < terzo_num)
+			min_num = secondo_num;
 		
 		else
-			maxNum = terzoNum;
-	}
-	else
-	{
-		if (secondoNum > terzoNum)
-			maxNum = secondoNum;
-		
-		else
-			maxNum = terzoNum;
+			min_num = terzo_num;
 	}
 
-	diffMaxMin = maxNum - minNum;
+	if (primo_num > secondo_num) {
+		
+		if (primo_num > terzo_num)
+			max_num = primo_num;
+		
+		else
+			max_num = terzo_num;
+		
+	} else {
+		
+		if (secondo_num > terzo_num)
+			max_num = secondo_num;
+		
+		else
+			max_num = terzo_num;
+	}
+
+	diff_max_min = max_num - min_num;
 	
-	cout << "\nLa differenza tra il numero più grande e quello più piccolo è pari a: " << diffMaxMin << endl;
+	cout << "\nLa differenza tra il numero più grande e quello più piccolo è pari a: " << diff_max_min << endl;
 	
 	
 	return 0;

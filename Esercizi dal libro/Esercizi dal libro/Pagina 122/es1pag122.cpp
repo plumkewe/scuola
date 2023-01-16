@@ -5,7 +5,7 @@ using namespace std;
 //  Creato: 30/11/22
 //  Da: swampkewe
 
-void crescente (int a, int b) {
+void Crescente (int a, int b) {
 
     if (a > b)
         cout << b << " " << a;
@@ -17,12 +17,13 @@ void crescente (int a, int b) {
 int main() {
     setlocale(LC_ALL, "italian");
 
-    int a, b;
+    int a = 0;
+    int b = 0;
 
     cout << "inserisci i due numeri: ";
-    cin >> a >> b;
+    cin  >> a >> b;
 
-    crescente(a, b);
+    Crescente (a, b);
 
     return 0;
 }

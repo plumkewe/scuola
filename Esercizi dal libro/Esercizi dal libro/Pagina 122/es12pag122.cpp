@@ -7,18 +7,18 @@ using namespace std;
 
 enum mesi : short int {
 	
-	gennaio = 1,
-	febbraio,
-	marzo,
-	aprile,
-	maggio,
-	giugno,
-	luglio,
-	agosto,
-	settembre,
-	ottobre,
-	novembre,
-	dicembre
+	kGennaio = 1,
+	kFebbraio,
+	kMarzo,
+	kAprile,
+	kMaggio,
+	kGiugno,
+	kLuglio,
+	kAgosto,
+	kSettembre,
+	kOttobre,
+	kNovembre,
+	kDicembre
 	
 };
 
@@ -27,36 +27,43 @@ int main() {
 	setlocale(LC_ALL, "italian"); //  per poter usare gli accenti
 	
 	short int mese			= 0;
-	short int meseGiorni	= 0;
+	short int mese_giorni	= 0;
 	
 	cout << "Inserisci il mese: ";
 	cin  >> mese;
 	
 	
-	switch (mese) {
-		
-		case novembre: case aprile: case giugno: case settembre:
-			
-			meseGiorni = 30;
+	switch (mese) 
+	{
+		case kNovembre:
+		case kAprile:
+		case kGiugno:
+		case kSettembre: {
+			mese_giorni = 30;
 			break;
-		
-		case gennaio: case marzo: case maggio: case luglio: case agosto: case ottobre: case dicembre:
-			
-			meseGiorni = 31;
+		}
+		case kGennaio:
+		case kMarzo:
+		case kMaggio:
+		case kLuglio:
+		case kAgosto:
+		case kOttobre:
+		case kDicembre: {
+			mese_giorni = 31;
 			break;
-		
-		case febbraio:
-			
-			meseGiorni = 28;
+		}
+		case kFebbraio: {
+			mese_giorni = 28;
 			break;
-		
-		
-		default:
+		}
+		default: {
 			cout << "\nMese non valido" << endl;
 			return 0;
+		}
+		
 	}
 	
-	cout << "\nIl mese ha " << meseGiorni << " giorni" << endl;
+	cout << "\nIl mese ha " << mese_giorni << " giorni" << endl;
 	
 	
 	return 0;

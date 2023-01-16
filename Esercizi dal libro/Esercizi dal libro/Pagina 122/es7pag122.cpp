@@ -17,8 +17,8 @@ int main() {
 	cin  >> numero;
 	
 	
-	if ((numero >= 1000) || (numero < 0))
-	{
+	if ((numero >= 1000) || (numero < 0)) {
+		
 		cout << "\n[!] Non va bene!";
 		
 		return 0;
@@ -29,8 +29,7 @@ int main() {
 		cout << "\nUnità = " << numero << endl;
 	
 	
-	if ((numero < 100) && (numero >= 10))
-	{
+	if ((numero < 100) && (numero >= 10)) {
 		decine = numero / 10;
 		unita  = numero - decine * 10;
 		
@@ -38,8 +37,8 @@ int main() {
 	}
 	
 	
-	if ((numero < 1000) && (numero >= 100))
-	{
+	if ((numero < 1000) && (numero >= 100)) {
+		
 		centinaia 	=  numero / 100;
 		decine		= (numero - centinaia * 100) / 10;
 		unita 		=  numero - centinaia * 100 - decine * 10;

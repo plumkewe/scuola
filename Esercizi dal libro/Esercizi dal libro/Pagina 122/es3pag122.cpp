@@ -10,42 +10,42 @@ int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int primoNum 	= 0;
-	int secondoNum 	= 0;
+	int primo_num 	= 0;
+	int secondo_num = 0;
 	
-	int sommaNum	= 0;
-	int maxNum		= 0;
-	int minNum		= 0;
+	int somma_num	= 0;
+	int max_num		= 0;
+	int min_num		= 0;
 	
 	
 	cout << "Inserisci primo numero: ";
-	cin  >> primoNum;
+	cin  >> primo_num;
 	
 	cout << "Inserisci secondo numero: ";
-	cin  >> secondoNum;
+	cin  >> secondo_num;
 	
 	
-	if (primoNum == secondoNum)
-	{
+	if (primo_num == secondo_num) {
+		
 		cout << "\nI tuoi numeri sono uguali!";
 		
 		return 0;
 	}
 	
-	if (primoNum > secondoNum)
-	{
-		maxNum = primoNum;
-		minNum = secondoNum;
-	}
-	else
-	{
-		maxNum = secondoNum;
-		minNum = primoNum;
+	if (primo_num > secondo_num) {
+		
+		max_num = primo_num;
+		min_num = secondo_num;
+		
+	} else {
+		
+		max_num = secondo_num;
+		min_num = primo_num;
 	}
 	
-	sommaNum = maxNum + minNum * 2;
+	somma_num = max_num + min_num * 2;
 	
-	cout << "\nLa somma del numero con valore assoluto maggiore e del doppio di quello che ha il valore assoluto minore è pari a: " << sommaNum << endl;
+	cout << "\nLa somma del numero con valore assoluto maggiore e del doppio di quello che ha il valore assoluto minore è pari a: " << somma_num << endl;
 	
 	
 	return 0;

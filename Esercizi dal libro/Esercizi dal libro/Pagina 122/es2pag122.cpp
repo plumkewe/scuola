@@ -5,7 +5,7 @@ using namespace std;
 //  Creato: 30/11/22
 //  Da: swampkewe
 
-void pariodispari (int a) {
+void Pariodispari (int a) {
 
     a % 2 == 0 ? cout << "Il numero è pari" : cout << "Il numero non è pari";
 
@@ -15,12 +15,12 @@ void pariodispari (int a) {
 int main() {
     setlocale(LC_ALL, "italian");
 
-    int a;
+    int a = 0;
 
     cout << "Inserisci un numero: ";
     cin >> a;
 
-    pariodispari(a);
+    Pariodispari(a);
 
 
     return 0;

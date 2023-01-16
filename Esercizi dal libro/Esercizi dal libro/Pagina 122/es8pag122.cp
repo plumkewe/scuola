@@ -9,99 +9,87 @@ int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int primoNum 	= 0;
-	int secondoNum 	= 0;
-	int terzoNum 	= 0;
+	int primo_num 	= 0;
+	int secondo_num = 0;
+	int terzo_num 	= 0;
 	
-	int unoQuad		= 0;
-	int dueQuad		= 0;
-	int sommaQuad 	= 0;
+	int uno_quad	= 0;
+	int due_quad	= 0;
+	int somma_quad 	= 0;
 	
 	
 	cout << "Inserisci primo numero: ";
-	cin  >> primoNum;
+	cin  >> primo_num;
 	
 	cout << "Inserisci secondo numero: ";
-	cin  >> secondoNum;
+	cin  >> secondo_num;
 	
 	cout << "Inserisci terzo numero: ";
-	cin  >> terzoNum;
+	cin  >> terzo_num;
 	
 	
-	if ((primoNum == secondoNum) && (primoNum == terzoNum))
-	{
+	if ((primo_num == secondo_num) && (primo_num == terzo_num)) {
+		
 		cout << "\nI tuoi numeri sono uguali!";
 		
 		return 0;
 	}
 	
 	
-	if (primoNum < secondoNum) {
+	if (primo_num < secondo_num) {
 		
-		if (primoNum < terzoNum)
-			unoQuad = primoNum;
-		
-		else
-			unoQuad = terzoNum;
-	}
-	else
-	{
-		if (secondoNum < terzoNum)
-			unoQuad = secondoNum;
+		if (primo_num < terzo_num)
+			uno_quad = primo_num;
 		
 		else
-			unoQuad = terzoNum;
+			uno_quad = terzo_num;
+		
+	} else {
+		
+		if (secondo_num < terzo_num)
+			uno_quad = secondo_num;
+		
+		else
+			uno_quad = terzo_num;
 	}
 	
-	if (unoQuad == primoNum)
-	{
-		if (secondoNum < terzoNum)
-		{
-			dueQuad = secondoNum;
-		}
+	if (uno_quad == primo_num) {
 		
+		if (secondo_num < terzo_num)
+			due_quad = secondo_num;
+			
 		else
-		{
-			dueQuad = terzoNum;
-		}
+			due_quad = terzo_num;
 	
 	}
 	
-	if (unoQuad == secondoNum)
-	{
-		if (primoNum < terzoNum)
-		{
-			dueQuad = primoNum;
-		}
+	if (uno_quad == secondo_num) {
 		
+		if (primo_num < terzo_num)
+			due_quad = primo_num;
+			
 		else
-		{
-			dueQuad = terzoNum;
-		}
+			due_quad = terzo_num;
 		
 	}
 	
-	if (unoQuad == terzoNum)
-	{
-		if (primoNum < secondoNum)
-		{
-			dueQuad = primoNum;
-		}
+	if (uno_quad == terzo_num) {
 		
+		if (primo_num < secondo_num)
+			due_quad = primo_num;
+			
 		else
-		{
-			dueQuad = secondoNum;
-		}
+			due_quad = secondo_num;
 		
 	}
 	
-	unoQuad *= unoQuad;
-	dueQuad *= dueQuad;
+	uno_quad *= uno_quad;
+	due_quad *= due_quad;
 	
-	sommaQuad = unoQuad + dueQuad;
+	somma_quad = uno_quad + due_quad;
 	
 
-	cout << "\nLa somma dei quadrati di due numeri più piccoli è uguale a: " << sommaQuad << endl;
+	cout << "\nLa somma dei quadrati di due numeri più piccoli è uguale a: " << somma_quad << endl;
 	
 	
 	return 0;
