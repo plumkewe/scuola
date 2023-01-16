@@ -1,6 +1,6 @@
 # 🎒 <br /> Programma svolto nel 2022-
 
-###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate.
+###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate. Esercizi qui presenti non sono un granchè dato che furono svolti con quelle conoscenze che avevo. [Qui](https://github.com/plumkewe/scuola/tree/main/Esercizi%20dal%20libro).
 
 
 ### Settembre 22 ⤵️
@@ -56,7 +56,7 @@
 **La mini battaglia navale:** [Creare un vetto...](https://github.com/plumkewe/scuola/blob/ed0e64e116c8dd5a603af2ad81195ecc2cd2d9dd/Attivit%C3%A0%20svolta/Novembre/Novembre%2022%20/la_battaglia_navale.cpp) <br />
 
 [`🥞` **Venti e uno esercizi**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Novembre/Novembre%2026) <br />
-[`✨` **Come riempire un Array**](https://github.com/plumkewe/CPP_miei_codici/tree/main/Miei%20codici/Array/Modi%20di%20riempire) <br />
+[`✨` **Come riempire un Array**](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/C++/Array/Modi%20di%20riempire) <br />
 
 ###### 25 giorni
 
