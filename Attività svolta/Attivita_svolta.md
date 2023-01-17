@@ -64,9 +64,16 @@
 **Attività:** Array 2D (Matrici)  <br />
 **Esercizi di 20 dicembre:** [Realizzare un programma in li...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2020)  <br />
 
+###### 17 giorni
+
+### Dicembre 23 ⤵️
+
+**Attività:** Le funzioni e le procedure  <br />
+**Esercizi di 17 gennaio:** [Un azienda produce...]() <br />
+
 [`🎄` **Lezione per le vacanze**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2027)
 
-###### 35 giorni
+###### 17 giorni
 
 ### Gennaio 10 ⤵️
 [`✏️` **COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Gennaio/10%20gennaio)
