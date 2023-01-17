@@ -12,15 +12,15 @@ int main()
 	setlocale(LC_ALL, "italian");
 	
 	float importo_iniziale = 0.0f;
-	float importo_scontato = 0.0f;
+//	float importo_scontato = 0.0f;
 	
 	
 	cout << "Inserisci il tuo importo: ";
 	cin  >> importo_iniziale;
 	
-	importo_scontato = Sconto(importo_iniziale);
+//	importo_scontato = Sconto(importo_iniziale);
 	
-	cout << "Dovrai pagare: " << importo_scontato << "€ sconto incluso." << endl;
+	cout << "Dovrai pagare: " << Sconto(importo_iniziale) << "€ sconto incluso." << endl;
 		
 	
 	return 0;
@@ -41,8 +41,8 @@ int Sconto (float importo_iniziale)
 	else if (importo_iniziale >  500) //  anche qui if è "unitile" ma ok
 	sconto = 0.25;
 	
-	importo_finale -= importo_iniziale * sconto;
+//	importo_finale -= importo_iniziale * sconto;
 	
 	
-	return importo_finale;
+	return importo_finale -= importo_iniziale * sconto;;
 }

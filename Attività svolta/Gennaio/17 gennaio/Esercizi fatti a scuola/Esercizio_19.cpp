@@ -12,16 +12,16 @@ int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int temperatura           = 0;
-	string stato_effettivo;
+	int temperatura = 0;
+//	string stato_effettivo;
 	
 	
 	cout << "Inserisci la temperatura: ";
 	cin  >> temperatura;
 	
-	stato_effettivo = StatoSerra(temperatura);
+//	stato_effettivo = StatoSerra(temperatura);
 	
-	cout << "Lo stato della serra è: " << stato_effettivo << endl;
+	cout << "Lo stato della serra è: " << StatoSerra(temperatura) << endl;
 	
 	
 	return 0;
