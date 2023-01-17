@@ -6,8 +6,8 @@ using namespace std;
 
 int Sconto (float importo_iniziale)
 {
-	float importo_finale 	= importo_iniziale;
-	float sconto			= 0.0f;
+	float importo_finale	= importo_iniziale;
+	float sconto            = 0.0f;
 	
 		
 	if (importo_iniziale < 100)

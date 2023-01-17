@@ -12,7 +12,7 @@ int main()
 {
 	setlocale(LC_ALL, "italian");
 	
-	int temperatura 		= 0;
+	int temperatura           = 0;
 	string stato_effettivo;
 	
 	
