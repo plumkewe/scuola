@@ -69,7 +69,7 @@
 ### Dicembre 23 ⤵️
 
 **Attività:** Le funzioni e le procedure  <br />
-**Esercizi di 17 gennaio:** [Un azienda produce...]() <br />
+**Esercizi di 17 gennaio:** [Un azienda produce...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Gennaio/17%20gennaio/Esercizi%20fatti%20a%20scuola) <br />
 
 [`🎄` **Lezione per le vacanze**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Dicembre/Dicembre%2027)
 
