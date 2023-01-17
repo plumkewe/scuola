@@ -4,24 +4,7 @@ using namespace std;
 
 //  
 
-float Sconto (float primo_prod, float second_prod)
-{
-	float prezzo_finale 	= primo_prod + second_prod;
-	float menocaro_prod 	= 0.0f;
-	
-	if (primo_prod == second_prod)
-		return prezzo_finale;
-	
-	else if (primo_prod > second_prod)
-		menocaro_prod = second_prod;
-	else
-		menocaro_prod = primo_prod;
-	
-	prezzo_finale -= menocaro_prod * 0.30;
-	
-	
-	return prezzo_finale;
-}
+float Sconto (float primo_prod, float second_prod);
 
 
 int main()
@@ -45,4 +28,23 @@ int main()
 	
 	
 	return 0;
+}
+
+float Sconto (float primo_prod, float second_prod)
+{
+	float prezzo_finale 	= primo_prod + second_prod;
+	float menocaro_prod 	= 0.0f;
+	
+	if (primo_prod == second_prod)
+		return prezzo_finale;
+	
+	else if (primo_prod > second_prod)
+		menocaro_prod = second_prod;
+	else
+		menocaro_prod = primo_prod;
+	
+	prezzo_finale -= menocaro_prod * 0.30;
+	
+	
+	return prezzo_finale;
 }
