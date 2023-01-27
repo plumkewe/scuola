@@ -22,7 +22,7 @@ int main()
 
 	float costo = 0;
 	
-	for (int prime_i = 0; prime_i < 3; prime_i++)
+	for (int prime_i = 0; prime_i < 4; prime_i++)
 	{
 		cout << "Inserisci il titolo del " << prime_i + 1 << " libro: ";
 		cin  >>  libri[prime_i].titolo;
@@ -41,7 +41,7 @@ int main()
 		cout << endl;
 	}
 	
-	cout << "\nIl prezzo medio dei libri è pari a " << costo / 3  << "€" << endl;
+	cout << "\nIl prezzo medio dei libri è pari a " << costo / 4  << "€" << endl;
 	
 	
 	return 0;
