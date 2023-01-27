@@ -78,5 +78,10 @@
 ### Gennaio 10 ⤵️
 [`✏️` **COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Gennaio/10%20gennaio)
 
+###### 17 giorni
+
+### Gennaio 27 ⤵️
+**Attività:** Le strutture <br />
+**Esercizi di 27 gennaio:** [Realizzare un program...]() <br />
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
