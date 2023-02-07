@@ -84,4 +84,12 @@
 **Attività:** Le strutture <br />
 **Esercizi di 27 gennaio:** [Realizzare un program...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Gennaio/27%20gennaio) <br />
 
+###### 7 giorni
+
+### Febbraio 3 ⤵️
+**Attività:** Le classi <br />
+**Esercizi di 7 febbraio:** [Definisci la classe...]() <br />
+
+[`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Esercizi%20dal%20libro/Esempi%20dal%20libro/A7/pag212_1.cpp)
+
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
