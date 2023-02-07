@@ -88,7 +88,7 @@
 
 ### Febbraio 3 ⤵️
 **Attività:** Le classi <br />
-**Esercizi di 7 febbraio:** [Definisci la classe...]() <br />
+**Esercizi di 7 febbraio:** [Definisci la classe...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Febbraio/7%20febbraio) <br />
 
 [`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Esercizi%20dal%20libro/Esempi%20dal%20libro/A7/pag212_1.cpp)
 
