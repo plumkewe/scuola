@@ -90,6 +90,7 @@
 **Attività:** Le classi <br />
 **Esercizi di 7 febbraio:** [Definisci la classe...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Febbraio/7%20febbraio) <br />
 
-[`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Esercizi%20dal%20libro/Esempi%20dal%20libro/A7/pag212_1.cpp)
+[`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Esercizi%20dal%20libro/Esempi%20dal%20libro/A7/pag212_1.cpp) <br />
+[`✨` **Appunti**](https://www.craft.do/s/pUYRbw07Fx0lMR)
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
