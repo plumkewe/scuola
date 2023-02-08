@@ -63,33 +63,28 @@ int automobile::setserbatoio(int b) {
 
 double automobile::getserbatio() {
 	
-	return serbatio;
-	
+	return serbatio;	
 }
 
 void automobile::salimarcia() {
 	
-	if (statomotore)
+	if (statomotore) {
 		if (marcia < 5)
 			marcia ++;
-	
+	}
 	else
-		cout << "Motore spento, cambio non attivo" << '\n';
-	
+		cout << "Motore spento, cambio non attivo" << endl;
 }
-
 
 void automobile::scendimarica() {
 	
-	if (statomotore)
+	if (statomotore) {
 		if (marcia > 1)
 			marcia --;
-		
+	}
 	else 
-		cout << "Motore spento, cambio non attivo" << '\n';
-	
+		cout << "Motore spento, cambio non attivo" << endl;	
 }
-
 
 void automobile::avviamotore() {
 	
@@ -97,24 +92,22 @@ void automobile::avviamotore() {
 		statomotore = true;
 	
 	else
-		cout << "Impossibile avviare, serbatoio vuoto" << '\n';
+		cout << "Impossibile avviare, serbatoio vuoto" << endl;
 }
-
 
 void automobile::mostrastato() {
 	
-	cout << "Automobile: " << marcia << " " << cilindrata << " " << colore << '\n';
+	cout << "Automobile: " << marca << " " << cilindrata << " " << colore << endl;
 	
-	cout << "Serbatoio: " << serbatio << " litri di carburante" << '\n';
+	cout << "Serbatoio: " << serbatio << " litri di carburante" << endl;
 	
-	cout << "Marcia: " << marcia << '\n';
+	cout << "Marcia: " << marcia << endl;
 	
 	if (statomotore)
-		cout << "Motore accesso" << '\n';
+		cout << "Motore accesso" << endl;
 	
 	else 
-		cout << "Motore spento" << '\n';
-	
+		cout << "Motore spento" << endl;	
 }
 
 
@@ -124,23 +117,23 @@ int main() {
 	
 	automobile auto1 = automobile ("Marca1", "giallo", 1200);
 	
-	cout << "Chiamo la funzione membro MostraStato()" << '\n';
+	cout << "Chiamo la funzione membro MostraStato()" << endl;
 	auto1.mostrastato();
 	
 	cout << "====================" << '\n';
-	cout << "Chiamo la funzione membro setserbatoio()" << '\n';
+	cout << "Chiamo la funzione membro setserbatoio()" << endl;
 	auto1.setserbatoio(5);
 	
-	cout << "====================" << '\n';
-	cout << "Avvio il motore" << '\n';
+	cout << "====================" << endl;
+	cout << "Avvio il motore" << endl;
 	auto1.avviamotore();
 	
-	cout << "====================" << '\n';
-	cout << "Chiamo la funzione membro salimarcia()" << '\n';
+	cout << "====================" << endl;
+	cout << "Chiamo la funzione membro salimarcia()" << endl;
 	auto1.salimarcia();
 	
 	cout << "====================" << '\n';
-	cout << "Chiamo la funzione membro mostrastato()" << '\n';
+	cout << "Chiamo la funzione membro mostrastato()" << endl;
 	auto1.mostrastato();
 	
 	
