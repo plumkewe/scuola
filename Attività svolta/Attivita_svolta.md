@@ -93,4 +93,9 @@
 [`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Esercizi%20dal%20libro/Esempi%20dal%20libro/A7/pag212_1.cpp) <br />
 [`✨` **Appunti**](https://www.craft.do/s/pUYRbw07Fx0lMR)
 
+###### 7 giorni
+
+### Febbraio 10 ⤵️
+**Attività:** Introduzione C#, nulla di che windows forms fatti in un ambiente di sviluppo abbandonato.  <br />
+
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
