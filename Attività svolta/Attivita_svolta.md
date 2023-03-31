@@ -98,4 +98,9 @@
 ### Febbraio 10 ⤵️
 **Attività:** Introduzione C#, nulla di che windows forms fatti in un ambiente di sviluppo abbandonato.  <br />
 
+###### 49 giorni
+
+### Marzo 31
+**Attività:** Introduzione HTML, lista dei tag fatti: <title/>, <h1-6/> headline <ul/> & <li/> unordered list, <ol/> & <li/> ordered list, <p/> paragraph, <br/> line break <br />
+
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
