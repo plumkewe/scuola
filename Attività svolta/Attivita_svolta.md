@@ -100,7 +100,10 @@
 
 ###### 49 giorni
 
-### Marzo 31
+### Marzo 31 ⤵️
 **Attività:** Introduzione HTML, lista dei tag fatti: `<title/>`, `<h1-6/>` headline `<ul/>` & `<li/>` unordered list, `<ol/>` & `<li/>` ordered list, `<p/>` paragraph, `<br/>` line break <br />
+
+[`✨` **Lista**](https://www.craft.do/s/9LIb4nzx8Xkj29)
+
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
