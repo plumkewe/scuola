@@ -103,7 +103,12 @@
 ### Marzo 31 ⤵️
 **Attività:** Introduzione HTML, lista dei tag fatti: `<title/>`, `<h1-6/>` headline `<ul/>` & `<li/>` unordered list, `<ol/>` & `<li/>` ordered list, `<p/>` paragraph, `<br/>` line break <br />
 
-[`✨` **Lista**](https://www.craft.do/s/9LIb4nzx8Xkj29)
+[`✨` **Lista**](https://www.craft.do/s/9LIb4nzx8Xkj29) <br />
+
+###### 5 giorni
+**Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img srs=" "/>` <br />
+**Esercizi di 5 aprile:** [Creare una pagina HTML...]()
+
 
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
