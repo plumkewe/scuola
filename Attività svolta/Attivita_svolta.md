@@ -107,7 +107,7 @@
 
 ###### 5 giorni
 **Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img srs=" "/>` <br />
-**Esercizi di 5 aprile:** [Creare una pagina HTML...]()
+**Esercizi di 5 aprile:** [Creare una pagina HTML...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Aprile/5%20aprile)
 
 
 
