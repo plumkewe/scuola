@@ -1,0 +1,9 @@
+p {
+    border: 3px dashed blue;
+    text-align: justify;
+    line-height: 2.0;
+}
+p:first-letter {
+    color: red;
+    font-size: 2em;
+}
