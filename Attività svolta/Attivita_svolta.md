@@ -119,5 +119,9 @@
 
 [`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br />
 
+<br />
+### Maggio 19 ⤵️
+**Attività:** Che cosa è div e span, come usarlo e a che cosa serve <br />
+[`📕` **Esempio**]() <br />
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
