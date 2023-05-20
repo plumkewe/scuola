@@ -122,7 +122,7 @@
 
 <br />
 ### Maggio 16 ⤵️
-[`✏️` **COMPITO**]
+`✏️` **COMPITO** (abbiamo fatto più compiti solo che questo era scritto)
 <br />
 
 ### Maggio 19 ⤵️
