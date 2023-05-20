@@ -114,14 +114,19 @@
 ###### Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
 
 <br />
+
 ### Maggio 9 ⤵️
 **Esercizi di 9 maggio:** [Crea in una cartella...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Maggio/Maggio%209) <br />
 
 [`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br />
 
 <br />
+### Maggio 16 ⤵️
+[`✏️` **COMPITO**]
+<br />
+
 ### Maggio 19 ⤵️
-**Attività:** Che cosa è div e span, come usarlo e a che cosa serve <br />
-[`📕` **Esempio**]() <br />
+**Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br />
+[`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Maggio/Maggio%2019/Span_e_div.html) <br />
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
