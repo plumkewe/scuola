@@ -7,12 +7,12 @@ I puntatori in C++ sono variabili che contengono l'indirizzo di memoria di un'al
 using namespace std;
 
 int main() {
-int x = 5;
-int *p = &x;
-cout << *p << endl;
-*p = 10;
-cout << x << endl;
-return 0;
+	int x = 5;
+	int *p = &x;
+	cout << *p << endl;
+	*p = 10;
+	cout << x << endl;
+	return 0;
 }
 ```
 

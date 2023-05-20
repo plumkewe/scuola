@@ -7,13 +7,13 @@ Le funzioni in C++ sono blocchi di codice che eseguono un'azione specifica. Poss
 using namespace std;
 
 int add(int a, int b) {
-return a + b;
+	return a + b;
 }
 
 int main() {
-int result = add(3, 4);
-cout << result << endl;
-return 0;
+	int result = add(3, 4);
+	cout << result << endl;
+	return 0;
 }
 ```
 

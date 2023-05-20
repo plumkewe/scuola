@@ -8,15 +8,15 @@ Le struct in C++ sono tipi di dati composti che possono contenere variabili di d
 using namespace std;
 
 struct Student {
-string name;
-int age;
-double gpa;
+	string name;
+	int age;
+	double gpa;
 };
 
 int main() {
-Student s1 = {"Alice", 20, 3.9};
-cout << s1.name << " " << s1.age << " " << s1.gpa << endl;
-return 0;
+	Student s1 = {"Alice", 20, 3.9};
+	cout << s1.name << " " << s1.age << " " << s1.gpa << endl;
+	return 0;
 }
 ```
 
