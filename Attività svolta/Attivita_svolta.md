@@ -111,6 +111,8 @@
 **Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img src=" "/>` <br />
 **Esercizi di 5 aprile:** [Creare una pagina HTML...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Aprile/5%20aprile)
 
+<br />
+
 ###### Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
 
 <br />
@@ -121,8 +123,10 @@
 [`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br />
 
 <br />
+
 ### Maggio 16 ⤵️
 `✏️` **COMPITO** (abbiamo fatto più compiti solo che questo era scritto)
+
 <br />
 
 ### Maggio 19 ⤵️
