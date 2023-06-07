@@ -131,6 +131,6 @@
 
 ### Maggio 19 ⤵️
 **Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br />
-[`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Maggio/Maggio%2019/Span_e_div.html) <br />
+[`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Maggio/Maggio%2019/Span_e_div.html) • [run](https://plumkewe.w3spaces.com/div_and_span.html) <br />
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
