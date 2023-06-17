@@ -1,10 +1,12 @@
-# 🎒 <br /> Programma svolto nel 2022-
+# 🎒 <br> Programma svolto nel 2022-
 
 ###### Qui troverai tutto ciò che abbiamo fatto a scuola e anche esercizi svolti da me. Ogni giorno avrà una cartella dedicata. Esercizi e spiegazioni verranno linkate. Esercizi qui presenti non sono un granchè dato che furono svolti con quelle conoscenze che avevo. [Qui](https://github.com/plumkewe/scuola/tree/main/Esercizi%20dal%20libro).
 
 <hr>
-[Due](#2022) <br>
-[Tre](#2023) <br>
+
+[**2022**](#2022) <br>
+[**2023**](#2023)
+
 <hr>
 
 
@@ -118,11 +120,11 @@
 **Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img src=" "/>` <br>
 **Esercizi di 5 aprile:** [Creare una pagina HTML...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Aprile/5%20aprile)
 
-###### x giorni
+<br>
 
 ###### Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
 
-###### x giorni
+<br>
 
 ### Maggio 9 ⤵️
 **Esercizi di 9 maggio:** [Crea in una cartella...](https://github.com/plumkewe/scuola/tree/main/Attivit%C3%A0%20svolta/Maggio/Maggio%209) <br>
