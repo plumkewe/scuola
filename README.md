@@ -1,6 +1,5 @@
-# :school: scuola 
-Tutto ciò che ha a che fare con la scuola che sto frequentando, dai codici alle spiegazioni.
+# Scuola
 
-### Per vedere gli esercizi svolti e tanto altro [clicka qui](https://github.com/plumkewe/scuola/blob/main/Attività%20svolta/Attivita_svolta.md) oppure sulla cartella "attivita svolta"
+In questa sezione troverai tutto ciò che riguarda la scuola che sto frequentando, includendo codici sorgente e relative spiegazioni.
 
-![](https://github.com/plumkewe/plumkewe/blob/de9e1b2b10bdc2234ff61f30d40e2b5604f96e05/Altro/scuola.gif)
+### Per visualizzare gli esercizi svolti e altro materiale, clicca sul seguente link: [Visualizza qui](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/readme.md) oppure accedi alla cartella "attivita svolta".
