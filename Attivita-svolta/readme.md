@@ -4,6 +4,15 @@
 
 [Accedi ai contenuti](https://github.com/plumkewe/scuola/tree/main/Libro).
 
+<hr>
+
+[**2022**](#2022) <br>
+[**2023**](#2023)
+
+<hr>
+
+# 2022
+
 ### Settembre 22 ⤵️
 **Attività:** Dichiarazione di variabili, cin e cout
 
@@ -133,5 +142,7 @@
 ### Maggio 19 ⤵️
 **Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br />
 [`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Maggio/19/Span_e_div.html) <br />
+
+# 2023
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
