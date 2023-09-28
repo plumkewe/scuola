@@ -132,17 +132,34 @@
 
 [`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br />
 
-<br />
+###### 7 giorni
 
 ### Maggio 16 ⤵️
 `✏️` **COMPITO** abbiamo fatto più compiti solo che questo era scritto
 
-<br />
+###### 3 giorni
 
 ### Maggio 19 ⤵️
 **Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br />
 [`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Maggio/19/Span_e_div.html) <br />
 
 # 2023
+
+### Settembre
+**Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...
+[`📕` **Esrcizi**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2023/Settembre/) <br />
+
+<hr>
+
+* [Getting Started](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-1/Chapter-1/index.html) <br>
+* [Head Element](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-1/Chapter-2/index.html) <br>
+* [Text Basics](https://github.com/plumkewe/miei-codici/blob/main/Codici-dai-video-youtube/HTML/DAY-1/Chapter-3/index.html) <br>
+* [List Types](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-1/Chapter-4/index.html) <br>
+* [Add Links](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-1/Chapter-5/oltre.html) <br>
+* [Add Images](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-6/index.html) <br>
+* [Semantic Tags](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-7/index.html) <br>
+* [Create Tables](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-8/index.html) <br>
+* [Forms & Inputs](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-9/index.html)
+<hr>
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
