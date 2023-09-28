@@ -145,8 +145,8 @@
 
 # 2023
 
-### Settembre
-**Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...
+### Settembre ⤵️
+**Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...<br />
 [`📕` **Esrcizi**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2023/Settembre/) <br />
 
 <hr>
