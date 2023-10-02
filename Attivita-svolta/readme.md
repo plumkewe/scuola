@@ -147,7 +147,10 @@
 
 ### Settembre ⤵️
 **Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...<br />
+**Nuovo:** [Forms](https://www.w3schools.com/html/html_form_input_types.asp) <br />
 [`📕` **Esrcizi**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2023/Settembre/) <br />
+[`🏫` **Esrcizi fatti in classe**](https://jsfiddle.net/user/plumkewe/fiddles/) <br />
+
 
 <hr>
 
