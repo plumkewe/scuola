@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Dela Gothic One', cursive;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+header h1 {
+	text-align: center;
+	padding: 10px 10px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+footer p {
+	padding: 10px 10px;
+	background-color: white;
+	color: black;
+	
+	height: 20px; 
+	color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#map {
+	height: calc(100vh - 100px);
+	width: auto;
+}
+
+#map p {
+	color: black;
+}
+
+
+/* Stile per i marker del gruppo A (rosso) */
+.custom-icon-i-am-hare {
+	background-color: red;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini {
+	background-color: black;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-mezzo {
+	background-color: yellow;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-nuovo {
+	background-color: green;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-piccolo {
+	background-color: purple;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-struttura-m3 {
+	background-color: blue;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-intero {
+	background-color: grey;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-struttura-m2 {
+	background-color: lime;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-struttura-m {
+	background-color: olive;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-mezzo {
+	background-color: maroon;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.custom-icon-cestini-struttura-b {
+	background-color: aqua;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+
+
