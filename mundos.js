@@ -342,6 +342,7 @@ for (let i = 0; i < pointsA.length; i++) {
   pA.addLayer(marker);
 }
 
+
 // Aggiunta dei marker al gruppo pB con icona personalizzata nera
 // Aggiunta dei marker al gruppo pB con icona personalizzata nera
 for (let i = 0; i < pointsB.length; i++) {

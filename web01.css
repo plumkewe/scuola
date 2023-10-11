@@ -1,0 +1,11 @@
+pre, main, body {
+	font-family: courier;
+	font-size: 12px;
+}
+a {
+	color: black;
+}
+a:hover {
+	background-color: black;
+	color: white;
+}

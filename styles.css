@@ -22,21 +22,44 @@ body {
 	color: white;
 }
 
-footer p {
-	padding: 10px 10px;
-	background-color: white;
-	color: black;
+main p {
+	color: fuchsia;
+}
+
+footer {
+	text-align: center;
 	
-	height: 20px; 
-	color: black;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	
+	
+	height: -webkit-fill-avalible;
+	
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+
+footer p {
+	display: inline;
+	margin-right: 10px; 
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-size: 20px;
+	color: fuchsia;
+	text-shadow: 1px 3px black;
 }
 
 #map {
-	height: calc(100vh - 100px);
+	height: calc(100vh - 110px);
 	width: auto;
 }
 
@@ -47,70 +70,67 @@ footer p {
 
 /* Stile per i marker del gruppo A (rosso) */
 .custom-icon-i-am-hare {
-	background-color: red;
-	border-radius: 50%;
-	border: solid white 1px;
-}
-
-.custom-icon-cestini {
 	background-color: black;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
+.custom-icon-cestini {
+	background-color: #FFA240;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
 .custom-icon-cestini-mezzo {
-	background-color: yellow;
+	background-color: #8338ec;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-nuovo {
-	background-color: green;
+	background-color: #7209b7;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-piccolo {
-	background-color: purple;
+	background-color: #d90429;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-struttura-m3 {
-	background-color: blue;
+	background-color: #ff5400;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-intero {
-	background-color: grey;
+	background-color: #8c5e58;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-struttura-m2 {
-	background-color: lime;
+	background-color: #80ffdb;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-struttura-m {
-	background-color: olive;
+	background-color: #49a078;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-mezzo {
-	background-color: maroon;
+	background-color: #ffe45e;
 	border-radius: 50%;
 	border: solid white 1px;
 }
 
 .custom-icon-cestini-struttura-b {
-	background-color: aqua;
+	background-color: #00509d;
 	border-radius: 50%;
 	border: solid white 1px;
 }
-
-
-
