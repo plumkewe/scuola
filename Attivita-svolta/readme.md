@@ -165,4 +165,14 @@
 * [Forms & Inputs](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-9/index.html)
 <hr>
 
+### Ottobre ⤵️
+**Nuovo:** Strutturazione di una pagina WEB, dropdown menu e semantic tags <br />
+`✏️` **COMPITO:**
+- [Eserizio 1](https://jsfiddle.net/plumkewe/jm8c31Lu/)
+- [Esercizio 2](https://jsfiddle.net/plumkewe/f9tbz0x4/)
+
+### Novembre ⤵️
+**Nuovo:** intoduzione ai database e mySQL <br />
+
+
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
