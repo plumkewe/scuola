@@ -1,156 +1,170 @@
-# 🎒 Programma svolto nel 2022-
+# 🦤 Calendario
+Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**, compresi gli esercizi svolti personalmente. Ogni giorno di lezione ha una cartella dedicata, all'interno della quale troverai i collegamenti alle soluzioni degli esercizi e relative spiegazioni. È importante notare che gli esercizi presenti potrebbero **non** essere al massimo livello, in quanto furono risolti con le **conoscenze disponibili all'epoca**.
 
-#### Nel seguente repository troverai tutto ciò che abbiamo affrontato a scuola, compresi gli esercizi svolti personalmente. Ogni giorno di lezione ha una cartella dedicata, all'interno della quale troverai i collegamenti alle soluzioni degli esercizi e relative spiegazioni. È importante notare che gli esercizi presenti potrebbero non essere al massimo livello, in quanto furono risolti con le conoscenze disponibili all'epoca.
+[Accedi ai contenuti](https://github.com/plumkewe/scuola/tree/main/Libro)
 
-[Accedi ai contenuti](https://github.com/plumkewe/scuola/tree/main/Libro).
+> **Note**\
+> Aggiungerò solamente le cose che mi interessano. Questo significa che se ci sono 10 esercizi identici, non li troverai qui poiché non mi interessano.
 
+## Link utili
+* [W3S](https://www.w3schools.com/)
+* [MDN](https://developer.mozilla.org/en-US/)
+* [SQL](https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf) ⭐️
+
+* [JSF](https://jsfiddle.net/) - condivisione
+* [CP](https://codepen.io/Marshjek/pen/KQZVBQ) - editor
+
+## Software
+<p>
+<img height="32" width="32" src="https://cdn.simpleicons.org/notepadplusplus/orange" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/xampp/orange" />
+<p>
+
+> **Note**\
+> Questi software vengono utilizzati a scuola e a dir poco fanno schifo, cerca un ambiente di sviluppo addato a te!
+
+## Linguaggi
+<p>
+<img height="32" width="32" src="https://cdn.simpleicons.org/cplusplus/orange" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/html5/orange" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/css3/orange" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/mysql/orange" />
+<p>
+
+
+## Contenuti
+* [2023](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#2023)
+	* [Settembre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#settembre-1)
+	* [Ottobre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#ottobre-1)
+	* [Novembre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#novembre-1)
+
+* 2022
+	* Settembre
+		* 22 A: Dichiarazione di variabili, cin e cout
+		* 23 A: Operazioni aritmetiche 
+		* 27 A: Costanti e tipi dei dati 
+		* 30 A: % modulo, post incremento, if e gli operatori relazionali 
+	* Ottobre
+		* 7 A: Algebra BOOLeana, and, or e lo switch 
+		* 14 A: Iterazione, ciclo for
+	* Novembre
+		* 4 A: Compito
+		* 8 A: Iterazione ciclo while
+		* 11 A: Array
+	* Dicembre
+		* 6 A: Array 2D (Matrici)
+		* 23 A: Le funzioni e le procedure 
+	* Gennaio
+		* 10 A: Compito
+		* 27 A: Le strutture
+	* Febbraio
+		* 3 A: Le classi
+		* 10 A: Introduzione C#
+	* Marzo
+		* 31 A: Introduzione HTML
+	* Aprile
+		* 5 A: Liste, tabelle, immagini
+	* Maggio
+		* 9
+		* 16 Compito
+		* 19 A: Div e span
+
+<br>
 <hr>
+<br>
+<details> 
+	<summary><h2>2022</h2></summary>
 
-[**2022**](#2022) <br>
-[**2023**](#2023)
-
-<hr>
-
-# 2022
-
-### Settembre 22 ⤵️
+### Settembre
+### 22
 **Attività:** Dichiarazione di variabili, cin e cout
-
-###### 1 giorno
-
-### Settembre 23 ⤵️
-**Attività:** Operazioni aritmetiche <br />
+### 23
+**Attività:** Operazioni aritmetiche <br>
 **Esercizi:** [Calcola il costo della benzin...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Settembre/23)
-
-
-###### 5 giorni
-
-### Settembre 27 ⤵️
-**Attività:** Costanti e tipi dei dati <br />
+### 27
+**Attività:** Costanti e tipi dei dati <br>
 **Esercizi:** [Realizzare un programma...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Settembre/27)
-
-###### 3 giorni
-
-### Settembre 30 ⤵️
-**Attività:** % modulo, post incremento, if e gli operatori relazionali <br />
+### 30
+**Attività:** % modulo, post incremento, if e gli operatori relazionali <br>
 **Esercizi:** [Un'agenzia di viaggi deve organiz...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Ottobre/1)
 
-###### 7 giorni
-
-### Ottobre 7 ⤵️
-**Attività:** Algebra BOOLeana, and, or e lo switch <br />
+### Ottobre
+### 7 
+**Attività:** Algebra BOOLeana, and, or e lo switch <br>
 **Esercizi:** [Scrivi un algoritmo e relat...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Ottobre/7)
-
-###### 7 giorni
-
-### Ottobre 14 ⤵️
-**Attività:** Iterazione, ciclo for <br />
-**sercizi:** [Scrivi un alaoritmo e relativ...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Ottobre/14) <br />
+### 14
+**Attività:** Iterazione, ciclo for <br>
+**Esercizi:** [Scrivi un alaoritmo e relativ...](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Ottobre/14) <br>
 **Esercizi con il for:** [Scrivere un programma in linguag...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Ottobre/Esercizi-con-il-for)
 
-###### 21 giorni
+### Novembre
+### 4
+`✏️` [**COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/4)
+### 8
+**Attività:** Iterazione **ciclo while** <br>
+### 11
+**Attività:** Array <br>
+**Esercizi:** [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/18)  <br>
+**La mini battaglia navale:** [Creare un vetto...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/22/la-battaglia-navale.cpp) <br>
 
-### Novembre 4 ⤵️
-[`✏️` **COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/4)
+`🥞` [**Venti e uno esercizi**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/26) <br>
+`✨` [**Come riempire un Array**](https://github.com/plumkewe/miei-codici/tree/main/scritti-da-me/CPP/Array/Modi-per-riempire) <br>
 
-###### 4 giorni
+### Dicembre
+### 6
+**Attività:** Array 2D (Matrici)  <br>
+**Esercizi di 20 dicembre:** [Realizzare un programma in li...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Dicembre/20)  <br>
+### 23
+**Attività:** Le funzioni e le procedure  <br>
+**Esercizi di 17 gennaio:** [Un azienda produce...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/17) <br>
 
-### Novembre 8 ⤵️
-**Attività:** Iterazione **ciclo while** <br />
+`🎄` [**Lezione per le vacanze**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/Dicembre/27)
 
-###### 3 giorni
+### Gennaio
+### 10
+`✏️` [**COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/10)
+### 27
+**Attività:** Le strutture <br>
+**Esercizi di 27 gennaio:** [Realizzare un program...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/27) <br>
 
-### Novembre 11 ⤵️
-**Attività:** Array <br />
-**Esercizi:** [Scrivere un programma C++ che cre...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/18)  <br />
-**La mini battaglia navale:** [Creare un vetto...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/22/la-battaglia-navale.cpp) <br />
+### Febbraio
+### 3
+**Attività:** Le classi <br>
+**Esercizi di 7 febbraio:** [Definisci la classe...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Febbraio/7) <br>
 
-[`🥞` **Venti e uno esercizi**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Novembre/26) <br />
-[`✨` **Come riempire un Array**](https://github.com/plumkewe/miei-codici/tree/main/scritti-da-me/CPP/Array/Modi-per-riempire) <br />
+`📕` [**Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Libro/Esempi/A7/212_1.cpp) <br>
+`✨` [**Appunti**](https://www.craft.do/s/pUYRbw07Fx0lMR)
 
-###### 25 giorni
+### 10
+**Attività:** Introduzione C#, nulla di che windows forms fatti in un ambiente di sviluppo abbandonato.  <br>
 
-### Dicembre 6 ⤵️
-**Attività:** Array 2D (Matrici)  <br />
-**Esercizi di 20 dicembre:** [Realizzare un programma in li...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Dicembre/20)  <br />
-
-###### 17 giorni
-
-### Dicembre 23 ⤵️
-
-**Attività:** Le funzioni e le procedure  <br />
-**Esercizi di 17 gennaio:** [Un azienda produce...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/17) <br />
-
-[`🎄` **Lezione per le vacanze**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/Dicembre/27)
-
-###### 17 giorni
-
-### Gennaio 10 ⤵️
-[`✏️` **COMPITO**](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/10)
-
-###### 17 giorni
-
-### Gennaio 27 ⤵️
-**Attività:** Le strutture <br />
-**Esercizi di 27 gennaio:** [Realizzare un program...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Gennaio/27) <br />
-
-###### 7 giorni
-
-### Febbraio 3 ⤵️
-**Attività:** Le classi <br />
-**Esercizi di 7 febbraio:** [Definisci la classe...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Febbraio/7) <br />
-
-[`📕` **Classe rettangolo**](https://github.com/plumkewe/scuola/blob/main/Libro/Esempi/A7/212_1.cpp) <br />
-[`✨` **Appunti**](https://www.craft.do/s/pUYRbw07Fx0lMR)
-
-###### 7 giorni
-
-### Febbraio 10 ⤵️
-**Attività:** Introduzione C#, nulla di che windows forms fatti in un ambiente di sviluppo abbandonato.  <br />
-
-###### 49 giorni
-
-### Marzo 31 ⤵️
-**Attività:** Introduzione HTML, lista dei tag fatti: `<title/>`, `<h1-6/>` headline `<ul/>` & `<li/>` unordered list, `<ol/>` & `<li/>` ordered list, `<p/>` paragraph, `<br/>` line break <br />
-
-[`✨` **Lista**](https://www.craft.do/s/9LIb4nzx8Xkj29) <br />
-
-###### 5 giorni
-
-### Aprile 5 ⤵️
-**Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img src=" "/>` <br />
+### Marzo
+### 31
+**Attività:** Introduzione HTML, lista dei tag fatti: `<title/>`, `<h1-6/>` headline `<ul/>` & `<li/>` unordered list, `<ol/>` & `<li/>` ordered list, `<p/>` paragraph, `<br/>` line break <br>
+### Aprile
+### 5
+**Attività:** Diverse tipologie di liste, tabelle, come inserire un immagine, lista dei tag fatti: `<thead/>` & `<tr/>` & `<th/>`, `<tr/>` & `<td/>`, `<img src=" "/>` <br>
 **Esercizi di 5 aprile:** [Creare una pagina HTML...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Aprile/5)
 
-<br />
+### Maggio
+### 9
+**Esercizi di 9 maggio:** [Crea in una cartella...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Maggio/9) <br>
 
-> Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
-
-<br />
-
-### Maggio 9 ⤵️
-**Esercizi di 9 maggio:** [Crea in una cartella...](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2022/Maggio/9) <br />
-
-[`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br />
-
-###### 7 giorni
-
-### Maggio 16 ⤵️
+[`✨` **Colori**](https://htmlcolorcodes.com/color-names/) <br>
+### 16
 `✏️` **COMPITO** abbiamo fatto più compiti solo che questo era scritto
+### 19
+**Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br>
+[`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Maggio/19/Span_e_div.html) <br>
 
-###### 3 giorni
+</details>
 
-### Maggio 19 ⤵️
-**Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br />
-[`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Maggio/19/Span_e_div.html) <br />
-
-# 2023
-
-### Settembre ⤵️
-**Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...<br />
-**Nuovo:** [Forms](https://www.w3schools.com/html/html_form_input_types.asp) <br />
-[`📕` **Esrcizi**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2023/Settembre/) <br />
-[`🏫` **Esrcizi fatti in classe**](https://jsfiddle.net/user/plumkewe/fiddles/) <br />
-
+## 2023
+### Settembre
+**Ripasso:** `<div/>`, `<span/>`, `<table/>`, `<ol/>`, `<ul/>`...<br>
+**Nuovo:** [Forms](https://www.w3schools.com/html/html_form_input_types.asp) <br>
+`📕` [**Esrcizi**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2023/Settembre/) <br>
+`🏫` [**Esercizi fatti in classe**](https://jsfiddle.net/user/plumkewe/fiddles/) <br>
 
 <hr>
 
@@ -163,59 +177,57 @@
 * [Semantic Tags](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-7/index.html) <br>
 * [Create Tables](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-8/index.html) <br>
 * [Forms & Inputs](https://github.com/plumkewe/miei-codici/blob/c9abd84bd3dee0f3e70988c461704a798c988d19/Codici-dai-video-youtube/HTML/DAY-2/Chapter-9/index.html)
+
 <hr>
 
-### Ottobre ⤵️
-**Nuovo:** Strutturazione di una pagina WEB, dropdown menu e semantic tags <br />
-`✏️` **COMPITO:**
-- [Eserizio 1](https://jsfiddle.net/plumkewe/jm8c31Lu/)
-- [Esercizio 2](https://jsfiddle.net/plumkewe/f9tbz0x4/)
+### Ottobre
+**Nuovo:** Strutturazione di una pagina WEB, dropdown menu e semantic tags <br>
+<details>
+	<summary><code>✏️</code><b> Compito:</b></summary>
+	<ul>
+		<li><a href="https://jsfiddle.net/plumkewe/jm8c31Lu/">Eserizio 1</a></li>
+		<li><a href="https://jsfiddle.net/plumkewe/f9tbz0x4/">Eserizio 2</a></li>
+	</ul>
 
-### Novembre ⤵️
-**Nuovo:** intoduzione ai database e mySQL <br />
-`📕` **Videoteca:** <br />
-Elenco degli attori visualizzando cognome, nome, età nel 2023
-```sql
-SELECT
-  Cognome,
-  Nome
-  (2023 - AnnoNascita) AS 'Anni nel 2023'
-FROM attore
-```
-Elenco dei generi dei film senza duplicazioni
-```sql
-SELECT DISTINCT genere
-FROM film
-```
-Elenco di tutti i campi della tabella cinema
-```sql
-SELECT *
-FROM cinema
-```
-Elenco dei film di genere drammatico e con anno di produzione 2012
-```sql
-SELECT *
-FROM film
-WHERE Genere = 'drammatico' AND AnnoProduzine = 2012
-```
-
-<!-- <details>
-  <summary>Videoteca</summary>
-    <ol>
-      <li>Elenco degli attori visualizzando cognome, nome, età nel 2023</li>
-      ```sql
-        SELECT 
-          Cognome,
-          Nome
-          (2023 - AnnoNascita) AS 'Anni nel 2023'
-        FROM attore
-      ```
-      <li>Elenco dei generi dei film senza duplicazioni</li>
-      <li>Elenco di tutti i campi della tabella cinema</li>
-      <li>Elenco dei film di genere drammatico e con anno di produzione 2012</li>
-    </ol>
 </details>
--->
 
+### Novembre
+**Nuovo:** introduzione ai database e mySQL <br>
+**Esercizi:** <br>
+* Videoteca
+	1. Elenco degli attori visualizzando cognome, nome, età nel 2023
+	
+	```sql
+	SELECT
+	Cognome,
+	Nome
+	(2023 - AnnoNascita) AS 'Anni nel 2023'
+	FROM attore
+	```
+	2. Elenco dei generi dei film senza duplicazioni
+	
+	```sql
+	SELECT DISTINCT genere
+	FROM film
+	```
+		
+	3. Elenco di tutti i campi della tabella cinema 
+	
+	```sql
+	SELECT *
+	FROM cinema
+	```
+		
+	4. Elenco dei film di genere drammatico e con anno di produzione 2012
+	
+	```sql
+	SELECT *
+	FROM film
+	WHERE Genere = 'drammatico' AND AnnoProduzine = 2012
+	```	
+	
+<br>
+<br>
+<br>
 
-<!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
+hai raggiunto la fine 🦕
