@@ -33,10 +33,10 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 
 
 ## Contenuti
-* [2023](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#2023)
-	* [Settembre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#settembre-1)
-	* [Ottobre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#ottobre-1)
-	* [Novembre](https://github.com/plumkewe/scuola/edit/main/Attivita-svolta/readme.md#novembre-1)
+* [2023](#2023)
+	* [Settembre](#settembre-1)
+	* [Ottobre](#ottobre-1)
+	* [Novembre](#novembre-1)
 
 * 2022
 	* Settembre
