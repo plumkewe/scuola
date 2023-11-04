@@ -123,7 +123,7 @@
 
 <br />
 
-###### Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
+> Purtroppo temporaneamente ho perso l'interesse nella scuola e nello studio di informatica, siamo andati avanti con HTML
 
 <br />
 
@@ -173,6 +173,49 @@
 
 ### Novembre ⤵️
 **Nuovo:** intoduzione ai database e mySQL <br />
+`📕` **Videoteca:** <br />
+Elenco degli attori visualizzando cognome, nome, età nel 2023
+```sql
+SELECT
+  Cognome,
+  Nome
+  (2023 - AnnoNascita) AS 'Anni nel 2023'
+FROM attore
+```
+Elenco dei generi dei film senza duplicazioni
+```sql
+SELECT DISTINCT genere
+FROM film
+```
+Elenco di tutti i campi della tabella cinema
+```sql
+SELECT *
+FROM cinema
+```
+Elenco dei film di genere drammatico e con anno di produzione 2012
+```sql
+SELECT *
+FROM film
+WHERE Genere = 'drammatico' AND AnnoProduzine = 2012
+```
+
+<!-- <details>
+  <summary>Videoteca</summary>
+    <ol>
+      <li>Elenco degli attori visualizzando cognome, nome, età nel 2023</li>
+      ```sql
+        SELECT 
+          Cognome,
+          Nome
+          (2023 - AnnoNascita) AS 'Anni nel 2023'
+        FROM attore
+      ```
+      <li>Elenco dei generi dei film senza duplicazioni</li>
+      <li>Elenco di tutti i campi della tabella cinema</li>
+      <li>Elenco dei film di genere drammatico e con anno di produzione 2012</li>
+    </ol>
+</details>
+-->
 
 
 <!-- Riempire un array 2D: [Con dei valori tutti uguali...](https://github.com/plumkewe/miei-codici/tree/main/Miei%20codici/Array/Array%202D/Modi%20di%20riemprire)  <br /> -->
