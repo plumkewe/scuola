@@ -70,9 +70,8 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 
 <br>
 
-<details> 
-	<summary><h2>2022</h2></summary>
 
+## 2022
 ### Settembre
 #### 22
 **Attività:** Dichiarazione di variabili, cin e cout
@@ -155,7 +154,7 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 **Attività:** Che cosa è `<div/>` e `<span/>`, come usarlo e a che cosa serve <br>
 [`📕` **Esempio**](https://github.com/plumkewe/scuola/blob/main/Attivita-svolta/2022/Maggio/19/Span_e_div.html) <br>
 
-</details>
+
 
 ## 2023
 ### Settembre
