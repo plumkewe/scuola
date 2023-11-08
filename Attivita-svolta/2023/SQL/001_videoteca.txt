@@ -1,0 +1,25 @@
+# Elenco degli attori visualizzando cognome, nome, età nel 2023
+-------------------------------------
+SELECT
+	Cognome,
+	Nome,
+	(2023 - AnnoNascita) AS 'Anni nel 2023'
+FROM attore
+-------------------------------------
+# Elenco dei generi dei film senza duplicazioni
+-------------------------------------
+SELECT DISTINCT 
+	genere
+FROM film
+-------------------------------------
+# Elenco di tutti i campi della tabella cinema
+-------------------------------------
+SELECT *
+FROM cinema
+-------------------------------------
+# Elenco dei film di genere drammatico e con anno di produzione 2012
+-------------------------------------
+SELECT *
+FROM film
+WHERE Genere = 'drammatico' AND AnnoProduzine = 2012
+-------------------------------------

@@ -190,38 +190,8 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 
 ### Novembre
 **Nuovo:** introduzione ai database e mySQL <br>
-**Esercizi:** <br>
-* Videoteca
-	1. Elenco degli attori visualizzando cognome, nome, età nel 2023
-	
-	```sql
-	SELECT
-	Cognome,
-	Nome
-	(2023 - AnnoNascita) AS 'Anni nel 2023'
-	FROM attore
-	```
-	2. Elenco dei generi dei film senza duplicazioni
-	
-	```sql
-	SELECT DISTINCT genere
-	FROM film
-	```
-		
-	3. Elenco di tutti i campi della tabella cinema 
-	
-	```sql
-	SELECT *
-	FROM cinema
-	```
-		
-	4. Elenco dei film di genere drammatico e con anno di produzione 2012
-	
-	```sql
-	SELECT *
-	FROM film
-	WHERE Genere = 'drammatico' AND AnnoProduzine = 2012
-	```	
+**Esercizi: [tutti esercizi svolti]()**
+
 	
 <br>
 <br>

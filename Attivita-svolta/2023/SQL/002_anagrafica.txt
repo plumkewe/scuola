@@ -1,0 +1,28 @@
+#  Selezionare dalla tabella Componenti cognome, nome e data di nascita dei record che hanno il cognome che comincia con "cara"
+-------------------------------------
+SELECT
+	cognome,
+	nome,
+	data_nascita
+FROM componenti
+WHERE cognome LIKE 'cara%'
+-------------------------------------
+# Selezionare dalla tabella Componenti cognome, nome e data di nascita i record di donne che hanno il cognome che comincia con "cara"
+-------------------------------------
+SELECT
+	cognome,
+	nome,
+	data_nascita
+FROM componenti
+WHERE cognome LIKE 'cara%' AND sesso = 'F'
+-------------------------------------
+# Selezionare dalla tabella Componenti i record che non hanno valorizzato il campo targa
+-------------------------------------
+SELECT *
+FROM componenti
+WHERE targa IS NULL
+-------------------------------------
+# Selezionare dalla tabella Componenti cognome, nome e data di nascita delle persone che come professione sono magazzinieri, secondini o posteggiatori
+-------------------------------------
+NON SI SA ANCORA FARE
+-------------------------------------
