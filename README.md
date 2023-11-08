@@ -190,7 +190,7 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 
 ### Novembre
 **Nuovo:** introduzione ai database e mySQL <br>
-**Esercizi: [tutti esercizi svolti]()**
+**Esercizi: [tutti esercizi svolti](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2023/SQL)**
 
 	
 <br>
