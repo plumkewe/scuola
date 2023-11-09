@@ -1,0 +1,46 @@
+# L’elenco degli attori il cui nome inizia con ‘T’
+-------------------------------------
+SELECT *
+FROM
+	attore
+WHERE Nome LIKE 'T%'
+-------------------------------------
+# L’elenco degli attori il cui nome inizia con ‘T’ e di 3
+lettere
+-------------------------------------
+SELECT *
+FROM
+	attore
+WHERE Nome LIKE 'T__'
+-------------------------------------
+# L’elenco dei film che non hanno luogo di produzione
+-------------------------------------
+SELECT *
+FROM
+	film
+WHERE AnnoProduzione IS NULL
+-------------------------------------
+# Elenco dei film che non hanno luogo di produzione ed
+hanno genere
+-------------------------------------
+SELECT *
+FROM
+	film
+WHERE AnnoProduzione IS NULL AND Genere IS NOT NULL
+-------------------------------------
+# Elenco dei film con anno di produzione tra il 2008 ed il
+2018 e prodotto negli Stati Uniti
+-------------------------------------
+SELECT *
+FROM
+	film
+WHERE AnnoProduzione BETWEEN 2008 AND 2018 AND LuogoProduzione = 'Stati Uniti'
+-------------------------------------
+# Elenco dei film con anno di produzione il 2008 o il 2018
+e prodotto negli Stati Uniti
+-------------------------------------
+SELECT *
+FROM 
+	film
+WHERE AnnoProduzione in(2008 , 2018) AND LuogoProduzione = 'Stati Uniti'
+-------------------------------------

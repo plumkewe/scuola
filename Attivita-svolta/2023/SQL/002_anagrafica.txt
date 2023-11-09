@@ -24,5 +24,11 @@ WHERE targa IS NULL
 -------------------------------------
 # Selezionare dalla tabella Componenti cognome, nome e data di nascita delle persone che come professione sono magazzinieri, secondini o posteggiatori
 -------------------------------------
-NON SI SA ANCORA FARE
+SELECT
+	cognome,
+	nome,
+	data_nascita
+FROM componenti INNER JOIN professioni
+ON componenti.id = professioni.id
+WHERE professioni.descrizione IN('Magazziniere', 'Secondìno', 'Posteggiatore')
 -------------------------------------

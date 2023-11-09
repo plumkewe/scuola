@@ -1,0 +1,47 @@
+!! DA FARE
+
+# Elenco degli automobilisti visualizzando il nominativo in ordine alfabetico
+-------------------------------------
+
+-------------------------------------
+# Elenco di automobilisti che non hanno indirizzo
+-------------------------------------
+
+-------------------------------------
+# L’elenco delle infrazioni che hanno l’importo compreso tra 50 e 200
+-------------------------------------
+
+-------------------------------------
+# L’elenco delle auto che siano di marca o fiat, o ford, o mercedes
+-------------------------------------
+
+-------------------------------------
+# L’elenco delle infrazioni che hanno o come tipo di infrazione “parcheggio errato” oppure che hanno
+il tipo di infrazione che contiene la parola “parcheggio” e un importo superiore a 100
+-------------------------------------
+
+-------------------------------------
+# L’elenco degli automobilisti che hanno il cognome che inizia per R e finisce per I
+-------------------------------------
+
+-------------------------------------
+# Elenco dei modelli delle auto senza ripetizioni ed in ordine alfabetico inverso
+-------------------------------------
+
+-------------------------------------
+# Elenco delle città di residenza degli automobilisti senza ripetizioni
+-------------------------------------
+
+-------------------------------------
+# Elenco delle marche delle auto
+-------------------------------------
+
+-------------------------------------
+# L’elenco degli automobilisti che vivono a Pombino visualizzando il nominativo e l’indirizzo
+-------------------------------------
+
+-------------------------------------
+# L’elenco delle infrazione visualizzando l’importo aumentato del 10%
+-------------------------------------
+
+-------------------------------------
