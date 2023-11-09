@@ -1,47 +1,75 @@
-!! DA FARE
-
 # Elenco degli automobilisti visualizzando il nominativo in ordine alfabetico
 -------------------------------------
-
+SELECT Nominativo -- vabe anche *
+FROM
+	automobilisti
+ORDER BY Nominativo
 -------------------------------------
 # Elenco di automobilisti che non hanno indirizzo
 -------------------------------------
-
+SELECT *
+FROM
+	automobilisti
+WHERE Indirizzo IS NULL
 -------------------------------------
 # L’elenco delle infrazioni che hanno l’importo compreso tra 50 e 200
 -------------------------------------
-
+SELECT *
+FROM
+	infrazioni
+WHERE Importo BETWEEN 50 AND 100
 -------------------------------------
 # L’elenco delle auto che siano di marca o fiat, o ford, o mercedes
 -------------------------------------
-
+SELECT *
+FROM
+	auto
+WHERE Marca IN('Fiat', 'Ford', 'Mercedes')
 -------------------------------------
 # L’elenco delle infrazioni che hanno o come tipo di infrazione “parcheggio errato” oppure che hanno
 il tipo di infrazione che contiene la parola “parcheggio” e un importo superiore a 100
 -------------------------------------
-
+SELECT *
+FROM 
+	infrazioni
+WHERE TipoInfrazione = 'Parcheggio Errato' OR (TipoInfrazione = '%parcheggio%' AND Importo > 100) -- no so
 -------------------------------------
 # L’elenco degli automobilisti che hanno il cognome che inizia per R e finisce per I
 -------------------------------------
-
+SELECT *
+FROM
+	automobilisti
+WHERE Nominativo = 'R%i'
 -------------------------------------
 # Elenco dei modelli delle auto senza ripetizioni ed in ordine alfabetico inverso
 -------------------------------------
-
+SELECT DISTINCT Modello
+FROM
+	auto
+ORDER BY Modello DESC
 -------------------------------------
 # Elenco delle città di residenza degli automobilisti senza ripetizioni
 -------------------------------------
-
+SELECT DISTINCT Citta
+FROM automobilisti
 -------------------------------------
 # Elenco delle marche delle auto
 -------------------------------------
-
+SELECT DISTINCT Marca
+FROM auto
 -------------------------------------
-# L’elenco degli automobilisti che vivono a Pombino visualizzando il nominativo e l’indirizzo
+# L’elenco degli automobilisti che vivono a Piombino visualizzando il nominativo e l’indirizzo
 -------------------------------------
-
+SELECT
+	Nominativo,
+	Indirizzo
+FROM automobilisti
+WHERE Citta = 'Piombino'
 -------------------------------------
 # L’elenco delle infrazione visualizzando l’importo aumentato del 10%
 -------------------------------------
-
+SELECT
+	TipoInfrazione,
+	Importo + (Importo * 0.10) AS 'Imorto +10%'
+FROM infrazioni
 -------------------------------------
