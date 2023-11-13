@@ -1,0 +1,114 @@
+# Visualizzare l’elenco delle mansioni il cui nome contiene la parola “Impiegato”
+-------------------------------------
+SELECT
+	*
+FROM
+	mansioni 
+WHERE
+	Nome LIKE 'Impiegatox%'
+-------------------------------------
+# Selezionare tutti i dipendenti il cui cognome inizia per C e finisce per I
+-------------------------------------
+SELECT
+	*
+FROM
+	dipendenti 
+WHERE
+	Cognome LIKE 'C%i'
+-------------------------------------
+# Visualizzare il nome dei dipendenti che guadagnano tra i 2000 ed i 2500
+-------------------------------------
+SELECT
+	* 
+FROM
+	dipendenti 
+WHERE
+	stipendio BETWEEN 2000 
+	AND 2500
+-------------------------------------
+# Visualizzare il nome dei dipendenti che guadagnano tra i 2000 ed i 2500 e che hanno il cognome
+che inizia per C
+-------------------------------------
+SELECT
+	* 
+FROM
+	dipendenti 
+WHERE
+	stipendio BETWEEN 2000 
+	AND 2500 
+	AND Cognome LIKE 'C%'
+-------------------------------------
+# Visualizzare id_mansione e quanti impiegati per ogni mansione
+-------------------------------------
+SELECT
+	mansioni.nome,
+	COUNT(*) quanti 
+FROM
+	dipendenti,
+	mansioni 
+WHERE
+	mansioni.ID_Mansione = dipendenti.id_mansione 
+GROUP BY
+	mansioni.ID_Mansione 
+ORDER BY
+	quanti DESC
+-------------------------------------
+# Visualizzare id_mansione e la stipendio medio per ogni mansione
+-------------------------------------
+SELECT
+	mansioni.nome,
+	ROUND( AVG( stipendio ), 2 ) 'stipendio medio' 
+FROM
+	dipendenti,
+	mansioni 
+WHERE
+	mansioni.ID_Mansione = dipendenti.id_mansione 
+GROUP BY
+	mansioni.ID_Mansione
+-------------------------------------
+# Visualizzare il cognome, il nome del dipendente, il nome della mansione e la tariffa oraria di ogni
+dipendente
+-------------------------------------
+SELECT
+	d.Cognome,
+	d.Nome,
+	m.nome Mansione,
+	m.Tariffa_oraria 'tarifa oraria'
+FROM
+	dipendenti AS d,
+	mansioni AS m
+WHERE
+	m.ID_Mansione = d.id_mansione
+ORDER BY m.nome
+-------------------------------------
+# Visualizzare l’elenco nome mansione e numero di dipendenti per mansione che hanno più di un
+dipendente
+-------------------------------------
+SELECT
+	mansioni.nome,
+	COUNT(*) quanti 
+FROM
+	dipendenti,
+	mansioni 
+WHERE
+	mansioni.ID_Mansione = dipendenti.id_mansione
+GROUP BY
+	mansioni.ID_Mansione
+HAVING quanti > 1
+-------------------------------------
+# Visualizzare l’elenco nome mansione e il massimo dello stipendio per ogni mansione che ha più di
+un dipendente
+-------------------------------------
+SELECT
+	mansioni.nome,
+	COUNT(*) quanti,
+	MAX(stipendio)
+FROM
+	dipendenti,
+	mansioni 
+WHERE
+	mansioni.ID_Mansione = dipendenti.id_mansione
+GROUP BY
+	mansioni.ID_Mansione
+HAVING quanti > 1
+-------------------------------------
