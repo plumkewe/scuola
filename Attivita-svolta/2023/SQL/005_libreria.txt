@@ -1,0 +1,93 @@
+# Visualizzare l’elenco dei libri visualizzando il titolo, il prezzo e l’anno di
+pubblicazione
+-------------------------------------
+SELECT 
+	Titolo,
+	Prezzo,
+	Annopubblicazione
+FROM libri;
+-------------------------------------
+# Visualizzare l’elenco dei libri di architettura visualizzando il titolo, il
+prezzo e l’anno di pubblicazione
+-------------------------------------
+SELECT 
+	Titolo,
+	Prezzo,
+	Annopubblicazione
+FROM libri
+WHERE Argomento = 'Architettura'
+-------------------------------------
+# Visualizzare l’elenco dei libri di architettura che hanno un anno di
+pubblicazione maggiore del 1980 visualizzando il titolo e il prezzo
+-------------------------------------
+SELECT 
+	Titolo,
+	Prezzo,
+	Annopubblicazione
+FROM libri
+WHERE Argomento = 'Architettura' AND Annopubblicazione > 1980
+-------------------------------------
+# Visualizzare l’elenco degli Editori senza che siano visualizzate
+duplicazioni
+-------------------------------------
+SELECT DISTINCT Editore
+FROM libri
+-------------------------------------
+# Visualizzare l’elenco dei libri il cui editore è o Apogeo o Buffetti
+-------------------------------------
+SELECT *
+FROM libri
+WHERE Editore IN('Apogeo','Buffetti')
+-------------------------------------
+# Visualizzare tutti i libri dell’editore Apogeo con prezzo superiore a 20
+-------------------------------------
+SELECT *
+FROM libri
+WHERE Editore = 'Apogeo' AND Prezzo > 20
+-------------------------------------
+# Visualizzare i libri che non hanno editore
+-------------------------------------
+SELECT *
+FROM libri
+WHERE Editore IS NULL
+-------------------------------------
+# Visualizzare solo i libri che hanno editore
+-------------------------------------
+SELECT *
+FROM libri
+WHERE Editore IS NOT NULL
+-------------------------------------
+# Visualizzare l’elenco dei libri mostrando il titolo, il prezzo ed il prezzo aumentato del 20%
+-------------------------------------
+SELECT
+	Titolo,
+    Prezzo,
+    Prezzo + Prezzo * 0.20 'Prezzo +20%'
+FROM libri
+-------------------------------------
+# Visualizzare quanti libri ci sono per ogni editore
+-------------------------------------
+SELECT
+	Editore,
+    COUNT(*) Quanti
+FROM libri
+GROUP BY Editore
+ORDER BY Quanti DESC
+-------------------------------------
+# Visualizzare l’elenco degli editori che hanno almeno 3 libri
+-------------------------------------
+SELECT
+	Editore,
+    COUNT(*) Quanti
+FROM libri
+GROUP BY Editore
+HAVING Quanti > 3
+ORDER BY Quanti DESC
+-------------------------------------
+# Visualizzare per ogni editore e per ogni autore da lui pubblicato quanto sono i libri presenti
+-------------------------------------
+NON HO CAPITO IL COMMANDO
+-------------------------------------
+# Visualizzare per ogni editore quanti libri hanno un prezzo maggiore di 15
+-------------------------------------
+NON HO CAPITO IL COMMANDO
