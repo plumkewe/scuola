@@ -1,0 +1,139 @@
+# Elenco che visualizzi il nome del prodotto, il Nome della categoria a cui appartiene, il nome
+della società del fornitore per i soli prodotti che hanno più di 50 di scorta
+-------------------------------------
+SELECT
+	pr.NomeProdotto prodotto,
+	ct.NomeCategoria categoria,
+	f.`NomeSocietà` società 
+FROM
+	prodotti pr,
+	categorie ct,
+	fornitori f 
+WHERE
+	pr.IDCategoria = ct.IDCategoria 
+	AND pr.Scorte > 50 
+	AND pr.IDfornitore = f.IDFornitore
+-------------------------------------
+# Elenco che per ogni categoria visualizzi quanti prodotti ci sono con scorte con un valore
+Maggiore di 50
+-------------------------------------
+SELECT
+	ct.NomeCategoria categoria,
+	COUNT( pr.Scorte ) 'quantità scorta' 
+FROM
+	prodotti pr,
+	categorie ct 
+WHERE
+	pr.IDCategoria = ct.IDCategoria 
+	AND pr.Scorte > 50 
+GROUP BY
+	categoria
+-------------------------------------
+# Elenco che visualizzi per l’ordine con IDOrdine uguale a 10248, l’IDCliente, il nome della
+società del cliente, il Nome del prodotto, il Prezzo unitario del prodotto nell’ordine, la quantità
+del prodotto nell’ordine
+-------------------------------------
+SELECT
+	od.IDCliente,
+	cl.`NomeSocietà`,
+	pr.NomeProdotto,
+	pr.PrezzoUnitario,
+	pr.`QuantitàOrdinata` 
+FROM
+	ordini od,
+	clienti cl,
+	prodotti pr,
+	`dettagli ordini` dr 
+WHERE
+	od.IDCliente = cl.IDCliente 
+	AND od.IDOrdine = dr.IDOrdine 
+	AND dr.IDOrdine = 10248 
+	AND dr.IDProdotto = pr.IDProdotto
+-------------------------------------
+# Elenco che visualizzi il Nome della società del Corriere ed il numero di ordini gestiti dal
+Corriere, per I soli corrieri che hanno gestito almeno 10 ordini
+-------------------------------------
+SELECT
+	cr.`NomeSocietà` società, 
+	od.Corriere corriere,
+	COUNT( od.Corriere ) quanti 
+FROM
+	corrieri cr,
+	ordini od 
+WHERE
+	cr.IDCorriere = od.Corriere 
+GROUP BY
+	od.Corriere 
+HAVING
+	quanti > 10
+-------------------------------------
+# Elenco per ogni nomesocietà del Corriere che visualizzi il nome della società del Corriere ed il numero degli ordini gestiti da ogni Corriere (bho?)
+-------------------------------------
+SELECT
+	cr.`NomeSocietà` società, 
+	od.Corriere corriere,
+	COUNT( od.Corriere ) quanti 
+FROM
+	corrieri cr,
+	ordini od 
+WHERE
+	cr.IDCorriere = od.Corriere 
+GROUP BY
+	od.Corriere 
+-------------------------------------
+# Elenco per ogni nomesocietà del Corriere e per ogni città di destinazione, visualizzi il nome della società del Corriere, il nome della città di destinazione ed il numero degli ordini gestiti da ogni Corriere per ogni città
+-------------------------------------
+SELECT
+	cr.`NomeSocietà` 'nome società',
+	od.Corriere 'corriere',
+	od.`CittàDestinatario` 'città destinario',
+	COUNT( od.Corriere ) 'X ordini corriere' 
+FROM
+	ordini od,
+	corrieri cr 
+WHERE
+	od.Corriere = cr.IDCorriere 
+GROUP BY
+	cr.`NomeSocietà`,
+	od.Corriere,
+	od.`CittàDestinatario`
+-------------------------------------
+# Elenco degli ordini con data di ordine compresa tra il 5 luglio 1996 ed il 10 luglio 1996
+-------------------------------------
+SELECT
+	od.IDOrdine ordine
+FROM
+	ordini od 
+WHERE
+	DataOrdine BETWEEN '1996-07-05' 
+	AND '1996-07-10'
+-------------------------------------
+# Elenco degli ordini che hanno o data Maggiore di 5 luglio del 1996 oppure che hanno data
+inferiore al 10 luglio del 1996 e che hanno IDCliente uguale a TOMSP (bho?)
+-------------------------------------
+SELECT
+	od.IDOrdine ordine 
+FROM
+	ordini od 
+WHERE
+	(
+	od.DataOrdine > '1996-07-05' 
+	OR ( od.DataOrdine < '1996-07-10' AND od.IDCliente = 'TOMSP' ))
+-------------------------------------
+# Elenco degli ordini che hanno o data Maggiore di 5 luglio del 1996 oppure che hanno data
+inferiore al 10 luglio del 1996 e che hanno IDCliente uguale a TOMSP visualizzando IDOrdine, il nome della società del cliente, l’IDCliente e la data dell’ordine.
+-------------------------------------
+SELECT
+	cl.IDCliente 'id cliente',
+	od.IDOrdine 'id ordine',
+	cl.`NomeSocietà` società,
+	DATE ( od.DataOrdine ) 'data ordine' 
+FROM
+	ordini od,
+	clienti cl 
+WHERE
+	od.IDCliente = cl.IDCliente 
+	AND (
+	od.DataOrdine > '1996-07-05' 
+	OR ( od.DataOrdine < '1996-07-10' AND od.IDCliente = 'TOMSP' ))
+-------------------------------------
