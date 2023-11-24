@@ -1,0 +1,180 @@
+!! i commandi non sono per niente il massimo. gli esercizi sono solo la mia interpretazione.
+
+# Elenco, ordinato in ordine crescente per id_gara, descrizione della gara,
+descrizione della specialità per le gare femminili (genere uguale a f) per le gare che
+contengano nella descrizione la parola “piani”
+-------------------------------------
+SELECT
+	g.descrizione,
+	c.descrizione 
+FROM
+	gare g,
+	specialita c 
+WHERE
+	g.id_specialita = c.id_specialita
+	AND g.genere = 'f'
+	AND g.descrizione LIKE '%piani%' 
+ORDER BY
+	g.id_gara,
+	g.descrizione
+-------------------------------------
+# L’elenco delle gare che abbiano nella descrizioni o la parola “piani” o “dorso” è che
+siano gare femminili (genere uguale a f)
+-------------------------------------
+SELECT
+	g.descrizione gara 
+FROM
+	gare g 
+WHERE
+	g.genere = 'f' 
+	AND (g.descrizione LIKE '%piani%' 
+	OR g.descrizione LIKE '%spada%')
+	
+-- l'ho cambiato
+-------------------------------------
+# Elenco degli atleti che abbiano o il nome che inizia per “g” o il cognome che inizia
+per “d” e che siano italiani (nazione uguale a ita)
+-------------------------------------
+SELECT
+	a.nome,
+	a.cognome 
+FROM
+	atleti a 
+WHERE
+	( a.nome LIKE 'g%' OR a.cognome LIKE 'd%' ) 
+	AND a.nazione = 'ita'
+-------------------------------------
+# Elenco degli atleti che hanno vinto l’oro (posizione uguale a 1) negli anni compresi
+tra il 2000 ed il 2003
+-------------------------------------
+SELECT
+	a.nome,
+	a.cognome 
+FROM
+	atleti a,
+	gareatleti gr 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.posizione = 1 
+	AND gr.anno BETWEEN 2000 
+	AND 2003
+-------------------------------------
+# Nazione, cognome e nome di tutti gli atleti inglesi ed americani ordinati per nazione
+e in ordine alfabetico
+-------------------------------------
+SELECT
+	a.cognome,
+	a.nome 
+FROM
+	atleti a,
+	gareatleti gr 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND a.nazione IN ( 'USA', 'GBR' ) 
+ORDER BY
+	a.nazione,
+	a.cognome,
+	a.nome
+-------------------------------------
+# Elenco alfabetico degli atleti Italiani che hanno partecipato alle olimpiadi del 2004
+-------------------------------------
+SELECT
+	a.cognome,
+	a.nome 
+FROM
+	atleti a,
+	gareatleti gr 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND a.nazione = 'ITA' 
+	AND gr.anno = 2004 
+ORDER BY
+	a.cognome,
+	a.nome
+-------------------------------------
+# Elenco delle nazioni che alle olimpiadi del 2008 hanno vinto almeno una medaglia
+-------------------------------------
+SELECT DISTINCT
+	a.nazione 
+FROM
+	atleti a,
+	gareatleti gr 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.posizione >= 3 
+	AND gr.anno = 2004
+	
+-- lho modificato
+-------------------------------------
+# Elenco delle posizioni con medaglia (1, 2, 3) conquistate per nazione nel 2004
+-------------------------------------
+SELECT
+	a.nazione,
+	COUNT(*) quante 
+FROM
+	atleti a,
+	gareatleti gr 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.posizione >= 3 
+	AND gr.anno = 2004 
+GROUP BY
+	a.nazione
+-------------------------------------
+# Elenco delle atlete che nelle loro partecipazioni hanno vinto almeno una medaglia
+d’oro
+-------------------------------------
+SELECT
+	a.nome,
+	a.cognome 
+FROM
+	atleti a,
+	gareatleti gr,
+	gare g 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.id_gara = g.id_gara 
+	AND gr.posizione = 1 
+	AND g.genere = 'f'
+-------------------------------------
+# Ripartizione per sesso delle medaglie d’oro nella specialità nuoto degli atleti USA
+alle olimpiadi del 2012
+-------------------------------------
+SELECT
+	g.genere, COUNT(*) quanti
+FROM
+	atleti a,
+	gareatleti gr,
+	gare g,
+	specialita s
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.id_gara = g.id_gara 
+	AND g.id_specialita = s.id_specialita
+	AND gr.posizione = 1 
+	AND a.nazione = 'ITA'
+	AND s.descrizione = 'nuoto'
+GROUP BY g.genere
+-- ho tolto una condizione: causa mancanza data 
+-------------------------------------
+# Elenco delle nazioni che nel corso del tempo hanno vinto almeno tre ori nella
+specialità scherma
+-------------------------------------
+SELECT
+	a.nazione 
+FROM
+	atleti a,
+	gareatleti gr,
+	gare g,
+	specialita s 
+WHERE
+	a.id_atleta = gr.id_atleta 
+	AND gr.id_gara = g.id_gara 
+	AND g.id_specialita = s.id_specialita 
+	AND gr.posizione = 1 
+GROUP BY
+	a.nazione 
+HAVING
+	COUNT( a.nazione ) > 3 
+-- ho tolto una condizione: causa mancanza data
+-------------------------------------
