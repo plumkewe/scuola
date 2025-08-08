@@ -1,9 +1,9 @@
-# 🦤 Calendario
+# Calendario
 Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**, compresi gli esercizi svolti personalmente. Ogni giorno di lezione ha una cartella dedicata, all'interno della quale troverai i collegamenti alle soluzioni degli esercizi e relative spiegazioni. È importante notare che gli esercizi presenti potrebbero **non** essere al massimo livello, in quanto furono risolti con le **conoscenze disponibili all'epoca**.
 
 [Accedi ai contenuti](https://github.com/plumkewe/scuola/tree/main/Libro)
 
-> **Note**\
+> [!NOTE]
 > Aggiungerò solamente le cose che mi interessano. Questo significa che se ci sono 10 esercizi identici, non li troverai qui poiché non mi interessano.
 
 ## Link utili
@@ -25,7 +25,7 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 
 ## Linguaggi
 <p>
-<img height="32" width="32" src="https://cdn.simpleicons.org/cplusplus/orange" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/c++/orange" />
 <img height="32" width="32" src="https://cdn.simpleicons.org/html5/orange" />
 <img height="32" width="32" src="https://cdn.simpleicons.org/css3/orange" />
 <img height="32" width="32" src="https://cdn.simpleicons.org/mysql/orange" />
@@ -191,10 +191,3 @@ Nel seguente repository **troverai tutto ciò che abbiamo affrontato a scuola**,
 ### Novembre
 **Nuovo:** introduzione ai database e mySQL <br>
 **Esercizi: [tutti esercizi svolti](https://github.com/plumkewe/scuola/tree/main/Attivita-svolta/2023/SQL)**
-
-	
-<br>
-<br>
-<br>
-
-hai raggiunto la fine 🦕
